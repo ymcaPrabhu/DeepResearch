@@ -24,7 +24,7 @@ _**Deyu Zhou, Pengjun Xie, Fei Huang<br>**_
 
 _Tongyi Lab<img src="./assets/tongyi.jpg" width="12px" style="display:inline;margin-right:10px;">, Alibaba Group_
 
-Welcome to try web traversal via our **[online demo](https://www.modelscope.cn/studios/jialongwu/WebWalker/)**!
+Welcome to try web traversal via our **[online demo](https://www.modelscope.cn/studios/iic/WebWalker/)**!
 
 </div>
 
@@ -56,10 +56,20 @@ The json item of WebWalkerQA dataset is organized in the following format:
 
 ```json
 {
-  "image_url": "https://www.pcarmarket.com/static/media/uploads/galleries/photos/uploads/galleries/22387-pasewark-1986-porsche-944/.thumbnails/IMG_7102.JPG.jpg/IMG_7102.JPG-tiny-2048x0-0.5x0.jpg",
-  "question": "What is the model of car from this brand?",
-  "question_id": "qid",
-  "answer": ["保时捷 944", "Porsche 944."]
+  "Question": "When is the paper submission deadline for the ACL 2025 Industry Track, and what is the venue address for the conference?",
+  "Answer": "The paper submission deadline for the ACL 2025 Industry Track is March 21, 2025. The conference will be held in Brune-Kreisky-Platz 1.",
+  "Root_Url": "https://2025.aclweb.org/",
+  "Info": {
+    "Hop": "multi-source",
+    "Domain": "Conference",
+    "Language": "English",
+    "Difficulty_Level": "Medium",
+    "Source_Website": [
+      "https://2025.aclweb.org/calls/industry_track/",
+      "https://2025.aclweb.org/venue/"
+    ],
+    "Golden_Path": ["root->call>student_research_workshop", "root->venue"]
+  }
 }
 ```
 
