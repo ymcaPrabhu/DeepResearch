@@ -1,0 +1,6 @@
+crawl4ai
+requests
+json5
+pillow
+beautifulsoup4
+qwen-agent
