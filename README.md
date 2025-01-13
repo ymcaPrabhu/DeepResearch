@@ -29,6 +29,11 @@ _Tongyi Lab <img src="./assets/tongyi.png" width="14px" style="display:inline;">
 
 👏 Welcome to try web traversal via our **[<img src="./assets/tongyi.png" width="14px" style="display:inline;"> Modelscope online demo](https://www.modelscope.cn/studios/iic/WebWalker/)** or **[🤗 Huggingface online demo](https://huggingface.co/spaces/callanwu/WebWalker)**!
 
+<p align="center">
+<a href="https://alibaba-nlp.github.io/WebWalker/">[🤖Project]</a>
+<a href="">[📄Paper]</a>
+<a href="## 🚩Citation">[🚩Citation]</a>
+
 </div>
 
 Repo for [_WebWalker: Benchmarking LLMs in Web Traversal_]()
@@ -45,7 +50,7 @@ Repo for [_WebWalker: Benchmarking LLMs in Web Traversal_]()
 
 # 📌 Introduction
 
-- We construct a challenging benchmark, **WebWalkerQA**, which is composed of 540 queries from four real-world scenarios across over 1580 webpages.
+- We construct a challenging benchmark, **WebWalkerQA**, which is composed of **680** queries from four real-world scenarios across over **1373** webpages.
 - To tackle the challenge of web-navigation tasks requiring long context, we propose **WebWalker**, which utilizes a multi-agent framework for effective memory management.
 - Extensive experiments show that the WebWalkerQA is **challenging**, and for information-seeking tasks, **vertical exploration** within the page proves to be beneficial.
 
@@ -170,7 +175,7 @@ python evaluate.py --evaluate_file_path [path_to_output_jsonl_file]
 
 - This work is implemented by [ReACT](https://github.com/ysymyth/ReAct), [Qwen-Agents](https://github.com/QwenLM/Qwen-Agent), [LangChain](https://github.com/langchain-ai/langchain). Sincere thanks for their efforts.
 - We sincerely thank the contributors and maintainers of [ai4crawl](https://github.com/unclecode/crawl4ai) for their open-source tool❤️, which helped us get web pages in a Markdown-like format.
-- The repo is contributed by [Jialong Wu](https://callanwu.github.io/), if you have any questions, please feel free to contact via jialongwu@alibaba-inc.com or jialongwu@seu.edu.cn.
+- The repo is contributed by [Jialong Wu](https://callanwu.github.io/), if you have any questions, please feel free to contact via jialongwu@alibaba-inc.com or jialongwu@seu.edu.cn or create an issue.
 
 ## 🚩Citation
 
