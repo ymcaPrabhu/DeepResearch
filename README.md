@@ -22,9 +22,9 @@ _**Deyu Zhou, Pengjun Xie, Fei Huang<br>**_
 
 <!-- **Affiliations:** -->
 
-_Tongyi Lab<img src="./assets/tongyi.jpg" width="12px" style="display:inline;margin-right:10px;">, Alibaba Group_
+_Tongyi Lab <img src="./assets/tongyi.png" width="14px" style="display:inline;margin-right:10px;">, Alibaba Group_
 
-Welcome to try web traversal via our **[online demo](https://www.modelscope.cn/studios/iic/WebWalker/)**!
+👏 Welcome to try web traversal via our **[online demo](https://www.modelscope.cn/studios/iic/WebWalker/)**!
 
 </div>
 
@@ -134,8 +134,8 @@ streamlit run app.py
 
 ```bash
 cd src
-python rag_system.py --model_name_or_path facebook/rag-token-nq
---output_file_path ../data/rag_output.jsonl
+python rag_system.py --api_name [api_name]
+--output_file [output_file]
 ```
 
 The details of experiment settings can be found in the readme file in the `src` folder.
