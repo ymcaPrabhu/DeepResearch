@@ -9,12 +9,12 @@
 </div>
 
 <div align="center">
-<img src="https://img.shields.io/github/stars/alibabanlp/WebWalker?color=yellow" alt="Stars">
+<img src="https://img.shields.io/github/stars/Alibaba-NLP/WebWalker?color=yellow" alt="Stars">
 <a href=''><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Discussion-orange'></a>
-<a href='https://huggingface.co/collections/callanwu/webwalkerqa-677f6527407edfda44098b09'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Colloectionss-blue'></a>
+<a href='https://huggingface.co/collections/callanwu/webwalker-677f6527407edfda44098b09'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Colloectionss-blue'></a>
 <a href='https://huggingface.co/datasets/callanwu/WebWalkerQA'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Datasets-green'></a>
 <a href='https://huggingface.co/spaces/callanwu/WebWalkerQALeadeboard'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Leaderboard-yellow'></a><br>
-<a href='https://arxiv.org/pdf/2412.09501.pdf'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>
+<a href='https://arxiv.org/pdf/2501.07572'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>
 
 <!-- **Authors:** -->
 <br>
