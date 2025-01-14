@@ -10,7 +10,7 @@
 
 <div align="center">
 <img src="https://img.shields.io/github/stars/Alibaba-NLP/WebWalker?color=yellow" alt="Stars">
-<a href=''><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Discussion-orange'></a>
+<a href='https://huggingface.co/papers/2501.07572'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Discussion-orange'></a>
 <a href='https://huggingface.co/collections/callanwu/webwalker-677f6527407edfda44098b09'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Colloectionss-blue'></a>
 <a href='https://huggingface.co/datasets/callanwu/WebWalkerQA'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Datasets-green'></a>
 <a href='https://huggingface.co/spaces/callanwu/WebWalkerQALeadeboard'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Leaderboard-yellow'></a><br>
@@ -36,7 +36,7 @@ _Tongyi Lab <img src="./assets/tongyi.png" width="14px" style="display:inline;">
 
 </div>
 
-Repo for [_WebWalker: Benchmarking LLMs in Web Traversal_]()
+Repo for [_WebWalker: Benchmarking LLMs in Web Traversal_](https://arxiv.org/pdf/2501.07572)
 
 # 📖 Quick Start
 
