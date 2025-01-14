@@ -182,6 +182,13 @@ python evaluate.py --input_path [INPUT_PATH]--output_path [OUTPUT_PATH]
 If this work is helpful, please kindly cite as:
 
 ```bigquery
-@article{
+@misc{wu2025webwalker,
+      title={WebWalker: Benchmarking LLMs in Web Traversal},
+      author={Jialong Wu and Wenbiao Yin and Yong Jiang and Zhenglin Wang and Zekun Xi and Runnan Fang and Deyu Zhou and Pengjun Xie and Fei Huang},
+      year={2025},
+      eprint={2501.07572},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2501.07572},
 }
 ```
