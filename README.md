@@ -31,7 +31,7 @@ _Tongyi Lab <img src="./assets/tongyi.png" width="14px" style="display:inline;">
 
 <p align="center">
 <a href="https://alibaba-nlp.github.io/WebWalker/">[🤖Project]</a>
-<a href="">[📄Paper]</a>
+<a href="https://arxiv.org/pdf/2501.07572">[📄Paper]</a>
 <a href="## 🚩Citation">[🚩Citation]</a>
 
 </div>
@@ -143,7 +143,7 @@ or
 export DASHSCOPE_API_KEY=YOUR_API_KEY
 ```
 
-> You can use other supported API keys with Qwen-Agent. For more details, please refer to the [Qwen-Agent](https://github.com/QwenLM/Qwen-Agent/tree/main/qwen_agent/llm). To configure the API key, modify the code in lines 42-51 of `src/app.py`.
+> You can use other supported API keys with Qwen-Agent. For more details, please refer to the [Qwen-Agent](https://github.com/QwenLM/Qwen-Agent/tree/main/qwen_agent/llm). To configure the API key, modify the code in lines 42-51 of [`src/app.py`](./src/app.py).
 
 Then, run the `app.py` file with Streamlit:
 
@@ -156,19 +156,19 @@ streamlit run app.py
 
 ```bash
 cd src
-python rag_system.py --api_name [api_name]
---output_file [output_file]
+python rag_system.py --api_name [API_NAME]
+--output_file [OUTPUT_PATH]
 ```
 
-The details of experiment settings can be found in the [readme file]() in the `src` folder.
+The details of environment setup can be found in the [README.md](./src/README.md) in the `src` folder.
 
 # 🔍 Evaluation
 
-The evaluation script for accuracy of the output answers using GPT-4o can be used as follows:
+The evaluation script for accuracy of the output answers using GPT-4 can be used as follows:
 
 ```bash
 cd src
-python evaluate.py --evaluate_file_path [path_to_output_jsonl_file]
+python evaluate.py --input_path [INPUT_PATH]--output_path [OUTPUT_PATH]
 ```
 
 ## 🌻Acknowledgement

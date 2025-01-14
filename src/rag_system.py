@@ -32,7 +32,7 @@ def o1_api(ds, output_path):
         print("Please set OPENAI_API_KEY and OPENAI_BASE_URL environment variables.")
         return
     client = AsyncOpenAI(base_url=OPENAI_BASE_URL, api_key=OPENAI_API_KEY)
-    model = "gpt-4"
+    model = "o1-preview-2024-09-12"
     MAX_CONCURRENT = 16
 
     @retry(stop=stop_after_attempt(10), wait=wait_exponential(min=4, max=60))
@@ -301,7 +301,6 @@ def wenxin_api(ds, output_path):
 
 def main(api_name, output_path):
     ds = load_dataset("callanwu/WebWalkerQA", split="main")
-    ds = ds[:16]
     api_functions = {
         "o1_api": o1_api,
         "gemini_api": gemini_api,

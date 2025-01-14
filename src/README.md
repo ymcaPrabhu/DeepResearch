@@ -1,9 +1,11 @@
-# Environment Setup
+# RAG_System
+
+## Environment Setup
 
 If you want to run the RAG-System on WebWalkerQA, you need to export the API keys as environment variables. You can run the following command to export the API keys:
 
 ```bash
-export OPENAI_API_KEK=YOUR_OPEN_API_KEY
+export OPENAI_API_KEY=YOUR_OPEN_API_KEY
 export OPENAI_BASE_URL=YOUR_OPENAI_API_BASE_URL
 export GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 export GEMINI_BASE_URL=YOUR_GEMINI_API_BASE_URL
@@ -31,4 +33,30 @@ If you want to run all the APIs, you can run the following command:
 
 ```bash
 python rag_system.py --api_name all --output_path results
+```
+
+# Evaluation
+
+## Environment Setup
+
+The evaluation is based on the GPT-4. You need to export the API keys as environment variables. You can run the following command to export the API keys:
+
+```bash
+export OPENAI_API_KEY=YOUR_OPEN_API_KEY
+export OPENAI_BASE_URL=YOUR_OPENAI_API_BASE_URL
+```
+
+usage: evaluate.py [-h] [--input_path INPUT_PATH] [--output_path OUTPUT_PATH]
+
+```
+options:
+  -h, --help            show this help message and exit
+  --input_path INPUT_PATH
+                        Input prediction result path
+  --output_path OUTPUT_PATH
+                        Evaluation output path
+```
+
+```bash
+python evaluate.py --input_path [INPUT_PATH]--output_path [OUTPUT_PATH]
 ```

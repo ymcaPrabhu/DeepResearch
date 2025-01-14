@@ -13,10 +13,11 @@ from PIL import Image
 from bs4 import BeautifulSoup
 
 
-model = "qwen-max"
+
 if 'DASHSCOPE_API_KEY' not in os.environ and 'OPENAI_API_KEY' not in os.environ:
     raise ValueError("Please set the environment variable 'DASHSCOPE_API_KEY' or 'OPENAI_API_KEY' to your API key.")
 if 'DASHSCOPE_API_KEY' in os.environ:
+    model = "qwen-plus"
     llm_cfg = {
         'model': model,
         'api_key': os.getenv('API_KEY'),
@@ -28,6 +29,7 @@ if 'DASHSCOPE_API_KEY' in os.environ:
         },
     }
 if 'OPENAI_API_KEY' in os.environ and 'OPENAI_MODEL_SERVER' in os.environ:
+    model = "gpt-4o"
     llm_cfg = {
         'model': model,
         'api_key': os.getenv('OPENAI_API_KEY'),
