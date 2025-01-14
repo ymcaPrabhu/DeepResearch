@@ -143,7 +143,7 @@ or
 export DASHSCOPE_API_KEY=YOUR_API_KEY
 ```
 
-> You can use other supported API keys with Qwen-Agent. For more details, please refer to the [Qwen-Agent](https://github.com/QwenLM/Qwen-Agent/tree/main/qwen_agent/llm). To configure the API key, modify the code in lines 42-51 of [`src/app.py`](./src/app.py).
+> You can use other supported API keys with Qwen-Agent. For more details, please refer to the [Qwen-Agent](https://github.com/QwenLM/Qwen-Agent/tree/main/qwen_agent/llm). To configure the API key, modify the code in lines 44-53 of [`src/app.py`](https://github.com/Alibaba-NLP/WebWalker/blob/main/src/app.py#L44-L53).
 
 Then, run the `app.py` file with Streamlit:
 
@@ -156,8 +156,7 @@ streamlit run app.py
 
 ```bash
 cd src
-python rag_system.py --api_name [API_NAME]
---output_file [OUTPUT_PATH]
+python rag_system.py --api_name [API_NAME] --output_file [OUTPUT_PATH]
 ```
 
 The details of environment setup can be found in the [README.md](./src/README.md) in the `src` folder.
