@@ -40,11 +40,11 @@ Repo for [_WebWalker: Benchmarking LLMs in Web Traversal_](https://arxiv.org/pdf
 
 # 📖 Quick Start
 
-- 🌏 The **Online Demo** is avaiable at [ModelScope](https://www.modelscope.cn/studios/jialongwu/WebWalker/) and [HuggingFace](https://huggingface.co/spaces/callanwu/WebWalker) now！
+- 🌏 The **Online Demo** is available at [ModelScope](https://www.modelscope.cn/studios/jialongwu/WebWalker/) and [HuggingFace](https://huggingface.co/spaces/callanwu/WebWalker) now！
 
-- 🤗 The **WebWalkerQA** dataset is avaiable at[ HuggingFace Datasets](https://huggingface.co/datasets/callanwu/WebWalkerQA)!
+- 🤗 The **WebWalkerQA** dataset is available at[ HuggingFace Datasets](https://huggingface.co/datasets/callanwu/WebWalkerQA)!
 
-- 🤗 The **WebWalkerQA** Leaderborad is avaiable at[ HuggingFace Space](https://huggingface.co/spaces/callanwu/WebWalkerQALeadeboard)!
+- 🤗 The **WebWalkerQA** Leaderborad is available at[ HuggingFace Space](https://huggingface.co/spaces/callanwu/WebWalkerQALeadeboard)!
 
 <img src="assets/demo.gif">
 
@@ -81,7 +81,7 @@ The json item of WebWalkerQA dataset is organized in the following format:
 }
 ```
 
-🤗 The WebWalkerQA Leaderboard is is avaiable at[ HuggingFace](https://huggingface.co/spaces/callanwu/WebWalkerQALeadeboard)!
+🤗 The WebWalkerQA Leaderboard is is available at[ HuggingFace](https://huggingface.co/spaces/callanwu/WebWalkerQALeadeboard)!
 
 You can load the dataset via the following code:
 
@@ -109,7 +109,7 @@ The performance on Web Agents are shown below:
     <img src="assets/rag_result.jpg" width="80%" height="auto" />
 </div>
 
-🤗 The WebWalkerQA Leaderboard is is avaiable at[ HuggingFace](https://huggingface.co/spaces/callanwu/WebWalkerQALeadeboard)!
+🤗 The WebWalkerQA Leaderboard is is available at[ HuggingFace](https://huggingface.co/spaces/callanwu/WebWalkerQALeadeboard)!
 
 🚩 Welcome to submit your method to the leaderboard!
 
