@@ -191,3 +191,7 @@ If this work is helpful, please kindly cite as:
       url={https://arxiv.org/abs/2501.07572},
 }
 ```
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Alibaba-NLP/WebWalker&type=Date)](https://star-history.com/#Alibaba-NLP/WebWalker&Date)
