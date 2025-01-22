@@ -121,7 +121,7 @@ git clone https://github.com/alibaba-nlp/WebWalker.git
 cd WebWalker
 pip install -e .
 # Install requirements
-pip install -r requirement.txt
+pip install -r requirements.txt
 # Run post-installation setup
 crawl4ai-setup
 # Verify your installation
