@@ -1,7 +1,6 @@
 import urllib.parse
-from crawl4ai import AsyncWebCrawler
+from crawl4ai import AsyncWebCrawler, CrawlerRunConfig
 import re
-import base64
 
 def process_url(url, sub_url):
     """
@@ -43,10 +42,13 @@ async def get_info(url, screenshot = True) -> str:
     Returns:
         str: html content and cleaned markdown content
     """
+    run_config = CrawlerRunConfig(
+        screenshot=True,             # Grab a screenshot as base64
+        screenshot_wait_for=1.0,     # Wait 1s before capturing
+    )
     async with AsyncWebCrawler() as crawler:
         if screenshot:
-            result = await crawler.arun(url, screenshot=screenshot)
-            # print(result)
+            result = await crawler.arun(url, config=run_config)
             return result.html, clean_markdown(result.markdown), result.screenshot
         else:
             result = await crawler.arun(url, screenshot=screenshot)

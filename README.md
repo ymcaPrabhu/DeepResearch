@@ -119,7 +119,7 @@ The performance on Web Agents are shown below:
 conda create -n webwalker python=3.10
 git clone https://github.com/alibaba-nlp/WebWalker.git
 cd WebWalker
-pip install -e .
+
 # Install requirements
 pip install -r requirements.txt
 # Run post-installation setup
