@@ -19,7 +19,7 @@
 <!-- **Authors:** -->
 <br>
 
-_**Jialong Wu, Wenbiao Yin, Jiang Yong, Zhenglin Wang, Zekun Xi, Runnan Fang**_
+_**Jialong Wu, Wenbiao Yin, Yong Jiang, Zhenglin Wang, Zekun Xi, Runnan Fang**_
 
 _**Linhai Zhang, Yulan He, Deyu Zhou, Pengjun Xie, Fei Huang<br>**_
 
