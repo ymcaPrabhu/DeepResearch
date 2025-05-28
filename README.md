@@ -1,14 +1,17 @@
 <div align="center">
 
-<h2>WebAgent for Information Seeking bulit by Qwen RAG Team, Tongyi Lab</h2>
+<h2>WebAgent for Information Seeking bulit by Qwen RAG Team, Tongyi Lab <img src="./assets/tongyi.png" width="14px" style="display:inline;"></h2>
 
 </div>
 
-![summary_tab](assets/webagent.jpg)
-
-- [**WebWalker**](WebWalker) (ACL 2025) - WebWalker: Benchmarking LLMs in Web Traversal
+<div align="center">
+    <img src="assets/webagent.png" width="75%" height="auto" />
+</div>
 
 - [**WebDancer**](WebDancer) (Preprint 2025) - WebDancer: Towards Autonomous Information Seeking Agency
+- [**WebWalker**](WebWalker) (ACL 2025) - WebWalker: Benchmarking LLMs in Web Traversal
+
+## Introductions and Demos for WebDancer
 
 ## News and Updates
 
