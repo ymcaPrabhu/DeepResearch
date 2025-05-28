@@ -4,7 +4,9 @@
   <img src="./assets/logo.png" alt="logo" width="40%"/>
 </p>
 
+<p align="center">
 ![version](https://img.shields.io/badge/version-1.0.0-blue)![通义千问](https://img.shields.io/badge/Qwen-通义千问-blueviolet)![Alibaba](https://img.shields.io/badge/Alibaba-%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4-orange)<a href="https://arxiv.org/abs/0000.00000">![arXiv](https://img.shields.io/badge/arXiv-0000.00000-b31b1b)</a>
+</p>
 
 ## 🕺 Introduction
 
