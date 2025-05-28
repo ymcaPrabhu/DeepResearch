@@ -11,15 +11,19 @@
 - [**WebDancer**](WebDancer) (Preprint 2025) - WebDancer: Towards Autonomous Information Seeking Agency
 - [**WebWalker**](WebWalker) (ACL 2025) - WebWalker: Benchmarking LLMs in Web Traversal
 
-## Features and Demos for WebDancer
+## 🌐Features and Demos for WebDancer
 
-## News and Updates
+- Native agentic search model using ReAct framework towards autonomous information seeking agency and _Deep Research_-like model.
+- We introduce a four-stage training paradigm comprising **browsing data construction, trajectory sampling, supervised fine-tuning for effective cold start, and reinforcement learning for improved generalization**, enabling the agent to autonomously acquire autonomous search and reasoning skills.
+- Our data-centric approach integrates trajectory-level supervision fine-tuning and reinforcement learning (DAPO) to develop a scalable pipeline for **training agentic systems** via SFT or RL.
+
+## 📰News and Updates
 
 - `2025.05.29` We release **WebDancer**, a native agentic search model towards autonomous information seeking agency and _Deep Research_-like model.
 - `2025.05.15` **WebWalker** is accepted by ACL 2025 main conference.
 - `2025.01.14` We relaese **WebWalker**, a benchmark for LLMs in web traversal and a multi-agent framework for information seeking.
 
-## License
+## 📃License
 
 The content of this project itself is licensed under [LICENSE](LICENSE).
 
@@ -41,7 +45,7 @@ If this work is helpful, please kindly cite as:
 
 The repo is contributed by [Jialong Wu](https://callanwu.github.io/), if you have any questions, please feel free to contact via jialongwu@alibaba-inc.com or jialongwu@seu.edu.cn or create an issue.
 
-## Misc
+## 🌟Misc
 
 <div align="center">
 

@@ -199,4 +199,8 @@ If this work is helpful, please kindly cite as:
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Alibaba-NLP/WebWalker&type=Date)](https://star-history.com/#Alibaba-NLP/WebWalker&Date)
+<div align="center">
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Alibaba-NLP/WebAgent&type=Date)](https://www.star-history.com/#Alibaba-NLP/WebAgent&Date)
+
+</div>
