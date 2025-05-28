@@ -33,7 +33,9 @@
 
 ## 🚀 Performance
 
-![image-20250528151243303](./assets/performance.png)
+<p align="center">
+  <img src="./assets/performance.png" alt="logo" width="80%"/>
+</p>
 
 ## 🤩 Acknowledgements
 
