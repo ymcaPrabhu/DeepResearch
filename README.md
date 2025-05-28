@@ -19,6 +19,7 @@
 - WebDancer achieves a Pass@3 score of 61.1% on GAIA and 54.6% on WebWalkerQA.
 
 <div align="center">
+    <h3>我的视频标题</h3>
     <video src="https://github.com/user-attachments/assets/7435e58d-03ca-4f94-b368-9df0ba59f7b6" />
 </div>
 
