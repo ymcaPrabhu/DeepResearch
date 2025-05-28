@@ -18,6 +18,10 @@
 - Our data-centric approach integrates trajectory-level supervision fine-tuning and reinforcement learning (DAPO) to develop a scalable pipeline for **training agentic systems** via SFT or RL.
 - WebDancer achieves a Pass@3 score of 61.1% on GAIA and 54.6% on WebWalkerQA.
 
+<div align="center">
+    <video src="assets/case1.mp4" width="80%" height="auto" />
+</div>
+
 ## 📰News and Updates
 
 - `2025.05.29` We release **WebDancer**, a native agentic search model towards autonomous information seeking agency and _Deep Research_-like model.
