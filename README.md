@@ -18,9 +18,10 @@
 - Our data-centric approach integrates trajectory-level supervision fine-tuning and reinforcement learning (DAPO) to develop a scalable pipeline for **training agentic systems** via SFT or RL.
 - WebDancer achieves a Pass@3 score of 61.1% on GAIA and 54.6% on WebWalkerQA.
 
-<video width="320" height="240" controls>
-  <source src="./assets/case1.mp4" type="video/mp4">
-</video>
+<div align="center">
+    <video src="https://github.com/user-attachments/assets/7435e58d-03ca-4f94-b368-9df0ba59f7b6" />
+</div>
+
 
 ## 📰News and Updates
 
