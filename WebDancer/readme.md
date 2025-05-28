@@ -1,8 +1,12 @@
 # WebDancer: Towards Autonomous Information Seeking Agency
 
-<img src="/Users/libaixuan/Library/Application%20Support/typora-user-images/image-20250528093054529.png" alt="version" style="zoom:25%;" />
+![version](https://img.shields.io/badge/version-1.0.0-blue)<a href="https://arxiv.org/abs/0000.00000">![arXiv](https://img.shields.io/badge/arXiv-0000.00000-b31b1b)</a>
 
-![version](https://img.shields.io/badge/version-1.0.0-blue)![通义千问](https://img.shields.io/badge/Qwen-通义千问-blueviolet)![Alibaba](https://img.shields.io/badge/Alibaba-%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4-orange)<a href="https://arxiv.org/abs/0000.00000">![arXiv](https://img.shields.io/badge/arXiv-0000.00000-b31b1b)</a>
+<div align="center">
+    <img src="assets/webdancer.jpg" width="40%" height="auto" />
+</div>
+    <img src="assets/webdancer.jpg" width="40%" height="auto" />
+</div>
 
 ## 🕺 Introduction
 
