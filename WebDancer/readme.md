@@ -1,6 +1,6 @@
 # WebDancer: Towards Autonomous Information Seeking Agency
 
-<img src="/Users/libaixuan/Library/Application%20Support/typora-user-images/image-20250528093054529.png" alt="version" style="zoom:25%;" />
+<img src="./assets/logo.png" alt="version" style="zoom:10%;" />
 
 ![version](https://img.shields.io/badge/version-1.0.0-blue)![通义千问](https://img.shields.io/badge/Qwen-通义千问-blueviolet)![Alibaba](https://img.shields.io/badge/Alibaba-%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4-orange)<a href="https://arxiv.org/abs/0000.00000">![arXiv](https://img.shields.io/badge/arXiv-0000.00000-b31b1b)</a>
 
@@ -11,13 +11,13 @@
 - Our data-centric approach integrates trajectory-level supervision and online learning to develop a scalable pipeline for **training agentic systems**.
 - We instantiate this framework in a ReAct-based agent and conduct extensive experiments on **GAIA** and **WebWalkerQA** benchmarks. Results demonstrate that WebDancer achieves strong performance across diverse tasks, validating the effectiveness of our proposed paradigm and providing systematic insights for future agent development.
 
-![image-20250528140749334](/Users/libaixuan/Library/Application%20Support/typora-user-images/image-20250528140749334.png)
+![image-20250528151156500](./assets/data_construction.png)
 
-![image-20250528140819676](/Users/libaixuan/Library/Application%20Support/typora-user-images/image-20250528140819676.png)
+![image-20250528151229159](./assets/framework.png)
 
 ## 🚀 Performance
 
-![image-20250528140854128](/Users/libaixuan/Library/Application%20Support/typora-user-images/image-20250528140854128.png)
+![image-20250528151243303](./assets/performance.png)
 
 ## 🤩 Acknowledgements
 
