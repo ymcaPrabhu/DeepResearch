@@ -4,7 +4,7 @@
   <img src="./assets/logo.png" alt="logo" width="40%"/>
 </p>
 
-![version](https://img.shields.io/badge/version-1.0.0-blue)![通义千问](https://img.shields.io/badge/Qwen-通义千问-blueviolet)![Alibaba](https://img.shields.io/badge/Alibaba-%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4-orange)<a href="https://arxiv.org/abs/0000.00000">![arXiv](https://img.shields.io/badge/arXiv-0000.00000-b31b1b)</a>
+![version](https://img.shields.io/badge/version-1.0.0-blue)<a href="https://arxiv.org/abs/0000.00000">![arXiv](https://img.shields.io/badge/arXiv-0000.00000-b31b1b)</a>
 
 ## 🕺 Introduction
 
@@ -13,9 +13,23 @@
 - Our data-centric approach integrates trajectory-level supervision and online learning to develop a scalable pipeline for **training agentic systems**.
 - We instantiate this framework in a ReAct-based agent and conduct extensive experiments on **GAIA** and **WebWalkerQA** benchmarks. Results demonstrate that WebDancer achieves strong performance across diverse tasks, validating the effectiveness of our proposed paradigm and providing systematic insights for future agent development.
 
-![image-20250528151156500](./assets/data_construction.png)
+## Four-Stage Training Paradigm
 
-![image-20250528151229159](./assets/framework.png)
+### 1. Browsing Data Construction
+
+<p align="center">
+  <img src="./assets/data_construction.png" alt="logo" width="80%"/>
+</p>
+
+### 2. Trajectory Sampling
+
+<p align="center">
+  <img src="./assets/framework.png" alt="logo" width="80%"/>
+</p>
+
+### 3. Supervised Fine-Tuning
+
+### 4. Reinforcement Learning
 
 ## 🚀 Performance
 
@@ -23,6 +37,7 @@
 
 ## 🤩 Acknowledgements
 
-This work is implemented based on [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) and [verl](https://github.com/volcengine/verl). We greatly appreciate their valuable contributions to the community. We also extend our sincere gratitude to all contributors of this work — your efforts have made this work possible.
+This work is implemented based on [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) and [verl](https://github.com/volcengine/verl).
+We greatly appreciate their valuable contributions to the community, especially for [WebThinker](https://github.com/RUC-NLPIR/WebThinker).
 
 ## 📑 Citation
