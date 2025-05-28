@@ -30,8 +30,10 @@ Our model can execute the long-horizon tasks with **multiple steps** and **compl
 
 <div align="center">
     <h3>GAIA</h3>
-    <video src="https://github.com/user-attachments/assets/0bbaf55b-897e-4c57-967d-a6e8bbd2167e" />
+    <video src="https://github.com/user-attachments/assets/935c668e-6169-4712-9c04-ac80f0531872" />
 </div>
+
+
 
 <div align="center">
     <h3>Daily Use</h3>
