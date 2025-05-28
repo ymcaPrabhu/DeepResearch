@@ -11,7 +11,7 @@
 - [**WebDancer**](WebDancer) (Preprint 2025) - WebDancer: Towards Autonomous Information Seeking Agency
 - [**WebWalker**](WebWalker) (ACL 2025) - WebWalker: Benchmarking LLMs in Web Traversal
 
-## Introductions and Demos for WebDancer
+## Features and Demos for WebDancer
 
 ## News and Updates
 
