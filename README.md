@@ -1,6 +1,6 @@
 <div align="center">
 
-<h2>WebAgent for Information Seeking bulit by Qwen RAG Team, Tongyi Lab <img src="./assets/tongyi.png" width="14px" style="display:inline;"></h2>
+<h2>WebAgent for Information Seeking bulit by Tongyi Lab, Alibaba Group <img src="./assets/tongyi.png" width="14px" style="display:inline;"></h2>
 
 </div>
 
