@@ -13,6 +13,28 @@
 - Our data-centric approach integrates trajectory-level supervision and online learning to develop a scalable pipeline for **training agentic systems**.
 - We instantiate this framework in a ReAct-based agent and conduct extensive experiments on **GAIA** and **WebWalkerQA** benchmarks. Results demonstrate that WebDancer achieves strong performance across diverse tasks, validating the effectiveness of our proposed paradigm and providing systematic insights for future agent development.
 
+## 🎥 Demos
+
+We provide demos for WebWalkerQA, GAIA and Daily Use.
+Our model can execute the long-horizon tasks with **multiple steps** and **complex reasoning**, such as web traversal, information seeking and question answering.
+
+<div align="center">
+    <h3>WebWalkerQA</h3>
+    <video src="https://github.com/user-attachments/assets/0bbaf55b-897e-4c57-967d-a6e8bbd2167e" />
+</div>
+
+<div align="center">
+    <h3>GAIA</h3>
+    <video src="https://github.com/user-attachments/assets/0bbaf55b-897e-4c57-967d-a6e8bbd2167e" />
+</div>
+
+<div align="center">
+    <h3>Daily Use</h3>
+    <video src="https://github.com/user-attachments/assets/d1d5b533-4009-478b-bd87-96b86389327d" />
+</div>
+
+⌛️ The deployment of models and demos will be updated soon.
+
 ## Four-Stage Training Paradigm
 
 ### 1. Browsing Data Construction
@@ -23,13 +45,13 @@
 
 ### 2. Trajectory Sampling
 
-<p align="center">
-  <img src="./assets/framework.png" alt="logo" width="80%"/>
-</p>
-
 ### 3. Supervised Fine-Tuning
 
 ### 4. Reinforcement Learning
+
+<p align="center">
+  <img src="./assets/framework.png" alt="logo" width="80%"/>
+</p>
 
 ## 🚀 Performance
 
