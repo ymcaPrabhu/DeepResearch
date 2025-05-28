@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-    <img src="assets/webagent.png" width="75%" height="auto" />
+    <img src="assets/webagent.png" width="40%" height="auto" />
 </div>
 
 - [**WebDancer**](WebDancer) (Preprint 2025) - WebDancer: Towards Autonomous Information Seeking Agency
