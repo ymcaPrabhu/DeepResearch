@@ -11,15 +11,17 @@
 - [**WebDancer**](WebDancer) (Preprint 2025) - WebDancer: Towards Autonomous Information Seeking Agency
 - [**WebWalker**](WebWalker) (ACL 2025) - WebWalker: Benchmarking LLMs in Web Traversal
 
-## 🌐Features and Demos for WebDancer
+## 🌐Features for WebDancer
 
 - Native agentic search reasoning model using ReAct framework towards autonomous information seeking agency and _Deep Research_-like model.
 - We introduce a four-stage training paradigm comprising **browsing data construction, trajectory sampling, supervised fine-tuning for effective cold start, and reinforcement learning for improved generalization**, enabling the agent to autonomously acquire autonomous search and reasoning skills.
 - Our data-centric approach integrates trajectory-level supervision fine-tuning and reinforcement learning (DAPO) to develop a scalable pipeline for **training agentic systems** via SFT or RL.
 - WebDancer achieves a Pass@3 score of 61.1% on GAIA and 54.6% on WebWalkerQA.
 
+## 🎥 Demos
 
-
+We provide demos for WebWalkerQA, GAIA and Daily Use.
+Our model can execute the long-horizon tasks with **multiple steps** and **complex reasoning**, such as web traversal, information seeking and question answering.
 
 <div align="center">
     <h3>WebWalkerQA</h3>
@@ -36,7 +38,7 @@
     <video src="https://github.com/user-attachments/assets/d1d5b533-4009-478b-bd87-96b86389327d" />
 </div>
 
-
+⌛️ The deployment of models and demos will be updated soon.
 
 ## 📰News and Updates
 
