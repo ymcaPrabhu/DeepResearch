@@ -57,6 +57,15 @@ The content of this project itself is licensed under [LICENSE](LICENSE).
 If this work is helpful, please kindly cite as:
 
 ```bigquery
+@misc{wu2025webdancerautonomousinformationseeking,
+      title={WebDancer: Towards Autonomous Information Seeking Agency}, 
+      author={Jialong Wu and Baixuan Li and Runnan Fang and Wenbiao Yin and Liwen Zhang and Zhengwei Tao and Dingchu Zhang and Zekun Xi and Yong Jiang and Pengjun Xie and Fei Huang and Jingren Zhou},
+      year={2025},
+      eprint={2505.22648},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.22648}, 
+}
 @misc{wu2025webwalker,
       title={WebWalker: Benchmarking LLMs in Web Traversal},
       author={Jialong Wu and Wenbiao Yin and Yong Jiang and Zhenglin Wang and Zekun Xi and Runnan Fang and Deyu Zhou and Pengjun Xie and Fei Huang},
