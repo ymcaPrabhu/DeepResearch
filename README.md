@@ -8,6 +8,10 @@
     <img src="assets/webagent.png" width="40%" height="auto" />
 </div>
 
+> You can check the paper of WebAgent at [WebDancer](https://arxiv.org/pdf/2505.22648) and [WebWalker](https://arxiv.org/pdf/2501.07572).
+
+> 💥 💥 💥 Stay tuned for more updates! We are working on the building native agentic model based on Browser and more open-domained environments!
+
 - [**WebDancer**](WebDancer) (Preprint 2025) - WebDancer: Towards Autonomous Information Seeking Agency
 - [**WebWalker**](WebWalker) (ACL 2025) - WebWalker: Benchmarking LLMs in Web Traversal
 
@@ -33,8 +37,6 @@ Our model can execute the long-horizon tasks with **multiple steps** and **compl
     <video src="https://github.com/user-attachments/assets/935c668e-6169-4712-9c04-ac80f0531872" />
 </div>
 
-
-
 <div align="center">
     <h3>Daily Use</h3>
     <video src="https://github.com/user-attachments/assets/d1d5b533-4009-478b-bd87-96b86389327d" />
@@ -57,14 +59,14 @@ The content of this project itself is licensed under [LICENSE](LICENSE).
 If this work is helpful, please kindly cite as:
 
 ```bigquery
-@misc{wu2025webdancerautonomousinformationseeking,
-      title={WebDancer: Towards Autonomous Information Seeking Agency}, 
+@misc{wu2025webdancer,
+      title={WebDancer: Towards Autonomous Information Seeking Agency},
       author={Jialong Wu and Baixuan Li and Runnan Fang and Wenbiao Yin and Liwen Zhang and Zhengwei Tao and Dingchu Zhang and Zekun Xi and Yong Jiang and Pengjun Xie and Fei Huang and Jingren Zhou},
       year={2025},
       eprint={2505.22648},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2505.22648}, 
+      url={https://arxiv.org/abs/2505.22648},
 }
 @misc{wu2025webwalker,
       title={WebWalker: Benchmarking LLMs in Web Traversal},
