@@ -4,7 +4,7 @@
   <img src="./assets/logo.png" alt="logo" width="40%"/>
 </p>
 
-![version](https://img.shields.io/badge/version-1.0.0-blue)<a href="https://arxiv.org/abs/0000.00000">![arXiv](https://img.shields.io/badge/arXiv-0000.00000-b31b1b)</a>
+![version](https://img.shields.io/badge/version-1.0.0-blue)<a href="https://arxiv.org/pdf/2505.22648">![arXiv](https://img.shields.io/badge/arXiv-2505.22648-b31b1b)</a>
 
 ## 🕺 Introduction
 
@@ -65,3 +65,17 @@ This work is implemented based on [LLaMA-Factory](https://github.com/hiyouga/LLa
 We greatly appreciate their valuable contributions to the community, especially for [WebThinker](https://github.com/RUC-NLPIR/WebThinker).
 
 ## 📑 Citation
+
+If this work is helpful, please kindly cite as:
+
+```bigquery
+@misc{wu2025webdancer,
+      title={WebDancer: Towards Autonomous Information Seeking Agency},
+      author={Jialong Wu and Baixuan Li and Runnan Fang and Wenbiao Yin and Liwen Zhang and Zhengwei Tao and Dingchu Zhang and Zekun Xi and Yong Jiang and Pengjun Xie and Fei Huang and Jingren Zhou},
+      year={2025},
+      eprint={2505.22648},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.22648},
+}
+```
