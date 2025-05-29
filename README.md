@@ -8,7 +8,7 @@
     <img src="assets/webagent.png" width="40%" height="auto" />
 </div>
 
-> You can check the paper of WebAgent at [WebDancer](https://arxiv.org/pdf/2505.22648) and [WebWalker](https://arxiv.org/pdf/2501.07572).
+> You can check the paper of [WebDancer](https://arxiv.org/pdf/2505.22648) and [WebWalker](https://arxiv.org/pdf/2501.07572).
 
 > 💥 💥 💥 Stay tuned for more updates! We are working on the building native agentic model based on Browser and more open-domained environments!
 
