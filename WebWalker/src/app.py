@@ -20,7 +20,7 @@ if 'DASHSCOPE_API_KEY' in os.environ:
     model = "qwen-plus"
     llm_cfg = {
         'model': model,
-        'api_key': os.getenv('API_KEY'),
+        'api_key': os.getenv('DASHSCOPE_API_KEY'),
         'model_server': "https://dashscope.aliyuncs.com/compatible-mode/v1" ,
         'generate_cfg': {
                 'top_p': 0.8,
