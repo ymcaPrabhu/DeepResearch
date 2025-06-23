@@ -4,9 +4,9 @@
 
 </div>
 
-<div align="center">
-    <img src="assets/webagent.png" width="40%" height="auto" />
-</div>
+<p align="center">
+🤗 <a href="https://huggingface.co/Alibaba-NLP/WebDancer-32B" target="_blank">WebDancer-QwQ-32B</a>
+</p>
 
 > You can check the paper of [WebDancer](https://arxiv.org/pdf/2505.22648) and [WebWalker](https://arxiv.org/pdf/2501.07572).
 
