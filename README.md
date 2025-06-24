@@ -22,6 +22,13 @@
 - Our data-centric approach integrates trajectory-level supervision fine-tuning and reinforcement learning (DAPO) to develop a scalable pipeline for **training agentic systems** via SFT or RL.
 - WebDancer achieves a Pass@3 score of 61.1% on GAIA and 54.6% on WebWalkerQA.
 
+## 📰News and Updates
+
+- `2025.06.23` The model, interactive demo, and some of the data of **WebDancer** have been open-sourced. You're welcome to try them out!
+- `2025.05.29` We release **WebDancer**, a native agentic search model towards autonomous information seeking agency and _Deep Research_-like model.
+- `2025.05.15` **WebWalker** is accepted by ACL 2025 main conference.
+- `2025.01.14` We relaese **WebWalker**, a benchmark for LLMs in web traversal and a multi-agent framework for information seeking.
+
 ## 🎥 Demos
 
 We provide demos for WebWalkerQA, GAIA and Daily Use.
@@ -43,13 +50,6 @@ Our model can execute the long-horizon tasks with **multiple steps** and **compl
 </div>
 
 ⌛️ The deployment of models and demos will be updated soon.
-
-## 📰News and Updates
-
-- `2025.06.23` The model, interactive demo, and some of the data of **WebDancer** have been open-sourced. You're welcome to try them out!
-- `2025.05.29` We release **WebDancer**, a native agentic search model towards autonomous information seeking agency and _Deep Research_-like model.
-- `2025.05.15` **WebWalker** is accepted by ACL 2025 main conference.
-- `2025.01.14` We relaese **WebWalker**, a benchmark for LLMs in web traversal and a multi-agent framework for information seeking.
 
 ## 📃License
 
