@@ -10,7 +10,7 @@
 
 <div align="center">
 <p align="center">
-  <img src="assets/roadmap.jpg" width="50%" height="50%" />
+  <img src="assets/roadmap.jpg" width="100%" height="50%" />
 </p>
 </div>
 
