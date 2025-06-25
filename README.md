@@ -22,19 +22,19 @@
 - [**WebDancer**](WebDancer) (Preprint 2025) - WebDancer: Towards Autonomous Information Seeking Agency
 - [**WebWalker**](WebWalker) (ACL 2025) - WebWalker: Benchmarking LLMs in Web Traversal
 
-## 🌐Features for WebDancer
-
-- Native agentic search reasoning model using ReAct framework towards autonomous information seeking agency and _Deep Research_-like model.
-- We introduce a four-stage training paradigm comprising **browsing data construction, trajectory sampling, supervised fine-tuning for effective cold start, and reinforcement learning for improved generalization**, enabling the agent to autonomously acquire autonomous search and reasoning skills.
-- Our data-centric approach integrates trajectory-level supervision fine-tuning and reinforcement learning (DAPO) to develop a scalable pipeline for **training agentic systems** via SFT or RL.
-- WebDancer achieves a Pass@3 score of 61.1% on GAIA and 54.6% on WebWalkerQA.
-
 ## 📰News and Updates
 
 - `2025.06.23` The model, interactive demo, and some of the data of **WebDancer** have been open-sourced. You're welcome to try them out!
 - `2025.05.29` We release **WebDancer**, a native agentic search model towards autonomous information seeking agency and _Deep Research_-like model.
 - `2025.05.15` **WebWalker** is accepted by ACL 2025 main conference.
 - `2025.01.14` We relaese **WebWalker**, a benchmark for LLMs in web traversal and a multi-agent framework for information seeking.
+
+## 🌐Features for WebDancer
+
+- Native agentic search reasoning model using ReAct framework towards autonomous information seeking agency and _Deep Research_-like model.
+- We introduce a four-stage training paradigm comprising **browsing data construction, trajectory sampling, supervised fine-tuning for effective cold start, and reinforcement learning for improved generalization**, enabling the agent to autonomously acquire autonomous search and reasoning skills.
+- Our data-centric approach integrates trajectory-level supervision fine-tuning and reinforcement learning (DAPO) to develop a scalable pipeline for **training agentic systems** via SFT or RL.
+- WebDancer achieves a Pass@3 score of 61.1% on GAIA and 54.6% on WebWalkerQA.
 
 ## 🚀 Quick Start
 
