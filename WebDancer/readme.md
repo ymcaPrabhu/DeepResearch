@@ -84,7 +84,7 @@ The sampled QA data can be found in
 ### 2. Trajectory Sampling
 
 The sampled trajectory data for SFT can be found in
-[`datasets/sample_qa.jsonl`](datasets/sample_qa.jsonl).
+[`datasets/sample_qa.jsonl`](datasets/sample_traj.jsonl).
 
 <p align="center">
   <img src="./assets/framework.png" alt="logo" width="80%"/>
