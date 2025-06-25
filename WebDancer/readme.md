@@ -43,15 +43,25 @@ Our model can execute the long-horizon tasks with **multiple steps** and **compl
   <img src="./assets/data_construction.png" alt="logo" width="80%"/>
 </p>
 
+The sampled QA data can be found in
+[`datasets/sample_qa.jsonl`](datasets/sample_qa.jsonl).
+
 ### 2. Trajectory Sampling
 
-### 3. Supervised Fine-Tuning
-
-### 4. Reinforcement Learning
+The sampled trajectory data for SFT can be found in
+[`datasets/sample_qa.jsonl`](datasets/sample_qa.jsonl).
 
 <p align="center">
   <img src="./assets/framework.png" alt="logo" width="80%"/>
 </p>
+
+### 3. Supervised Fine-Tuning
+
+For SFT training, you can refer to the training scipts of [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory).
+
+### 4. Reinforcement Learning
+
+We use the modified [verl](https://github.com/volcengine/verl) for RL training.
 
 ## 🚀 Performance
 
