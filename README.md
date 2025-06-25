@@ -53,7 +53,7 @@ bash depoly_model.sh WebDancer_PATH
 
 ### Step 2: Run the Demo
 
-Edit the following keys in [`scripts/run_demo.sh`](scripts/run_demo.sh):
+Edit the following keys in [`WebDancer/scripts/run_demo.sh`](scripts/run_demo.sh):
 
 - `GOOGLE_SEARCH_KEY`
 - `JINA_API_KEY`
