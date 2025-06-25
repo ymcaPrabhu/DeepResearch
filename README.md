@@ -24,8 +24,8 @@
 
 ## 📰News and Updates
 
-- `2025.06.23` The model, interactive demo, and some of the data of **WebDancer** have been open-sourced. You're welcome to try them out!
-- `2025.05.29` We release **WebDancer**, a native agentic search model towards autonomous information seeking agency and _Deep Research_-like model.
+- 🔥🔥🔥`2025.06.23` The model, interactive demo, and some of the data of **WebDancer** have been open-sourced. You're welcome to try them out!
+- 🔥🔥🔥`2025.05.29` We release **WebDancer**, a native agentic search model towards autonomous information seeking agency and _Deep Research_-like model.
 - `2025.05.15` **WebWalker** is accepted by ACL 2025 main conference.
 - `2025.01.14` We relaese **WebWalker**, a benchmark for LLMs in web traversal and a multi-agent framework for information seeking.
 
