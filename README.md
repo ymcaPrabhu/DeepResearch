@@ -29,6 +29,43 @@
 - `2025.05.15` **WebWalker** is accepted by ACL 2025 main conference.
 - `2025.01.14` We relaese **WebWalker**, a benchmark for LLMs in web traversal and a multi-agent framework for information seeking.
 
+## 🚀 Quick Start
+
+You need to enter the [`WebDancer`](WebDancer) folder for the following commands.
+
+### Step 0: Set Up the Environment
+
+```bash
+conda create -n webdancer python=3.12
+pip install -r requirements.txt
+```
+
+### Step 1: Deploy the Model
+
+Download the WebDancer model from [🤗 HuggingFace](https://huggingface.co/Alibaba-NLP/WebDancer-32B) and deploy it using the provided scripts with [sglang](https://github.com/sgl-project/sglang).
+
+```bash
+cd scripts
+bash depoly_model.sh WebDancer_PATH
+```
+
+> **Note:** Replace `WebDancer_PATH` with the actual path to the downloaded model.
+
+### Step 2: Run the Demo
+
+Edit the following keys in [`scripts/run_demo.sh`](scripts/run_demo.sh):
+
+- `GOOGLE_SEARCH_KEY`
+- `JINA_API_KEY`
+- `DASHSCOPE_API_KEY`
+
+Then, launch the demo with Gradio to interact with the WebDancer model:
+
+```bash
+cd scripts
+bash run_demo.sh
+```
+
 ## 🎥 Demos
 
 We provide demos for WebWalkerQA, GAIA and Daily Use.
