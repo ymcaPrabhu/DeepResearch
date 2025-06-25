@@ -13,6 +13,41 @@
 - Our data-centric approach integrates trajectory-level supervision and online learning to develop a scalable pipeline for **training agentic systems**.
 - We instantiate this framework in a ReAct-based agent and conduct extensive experiments on **GAIA** and **WebWalkerQA** benchmarks. Results demonstrate that WebDancer achieves strong performance across diverse tasks, validating the effectiveness of our proposed paradigm and providing systematic insights for future agent development.
 
+## 🚀 Quick Start
+
+### Step 0: Set Up the Environment
+
+```bash
+conda create -n webdancer python=3.12
+pip install -r requirements.txt
+```
+
+### Step 1: Deploy the Model
+
+Download the WebDancer model from [🤗 HuggingFace](https://huggingface.co/Alibaba-NLP/WebDancer-32B) and deploy it using the provided scripts with [sglang](https://github.com/sgl-project/sglang).
+
+```bash
+cd scripts
+bash depoly_model.sh WebDancer_PATH
+```
+
+> **Note:** Replace `WebDancer_PATH` with the actual path to the downloaded model.
+
+### Step 2: Run the Demo
+
+Edit the following keys in [`scripts/run_demo.sh`](scripts/run_demo.sh):
+
+- `GOOGLE_SEARCH_KEY`
+- `JINA_API_KEY`
+- `DASHSCOPE_API_KEY`
+
+Then, launch the demo with Gradio to interact with the WebDancer model:
+
+```bash
+cd scripts
+bash run_demo.sh
+```
+
 ## 🎥 Demos
 
 We provide demos for WebWalkerQA, GAIA and Daily Use.
