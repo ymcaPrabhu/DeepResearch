@@ -1,7 +1,7 @@
 # WebDancer: Towards Autonomous Information Seeking Agency
 
 <p align="center">
-  <img src="./assets/logo.png" alt="logo" width="40%"/>
+  <img src="./assets/webdancer.png" alt="logo" width="40%"/>
 </p>
 
 ![version](https://img.shields.io/badge/version-1.0.0-blue)<a href="https://arxiv.org/pdf/2505.22648">![arXiv](https://img.shields.io/badge/arXiv-2505.22648-b31b1b)</a>
