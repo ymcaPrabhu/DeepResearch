@@ -13,6 +13,13 @@
 - Our data-centric approach integrates trajectory-level supervision and online learning to develop a scalable pipeline for **training agentic systems**.
 - We instantiate this framework in a ReAct-based agent and conduct extensive experiments on **GAIA** and **WebWalkerQA** benchmarks. Results demonstrate that WebDancer achieves strong performance across diverse tasks, validating the effectiveness of our proposed paradigm and providing systematic insights for future agent development.
 
+## 🚀 Performance
+
+<p align="center">
+  <img src="./assets/performance.png" alt="logo" width="80%"/>
+</p>
+
+
 ## 🚀 Quick Start
 
 ### Step 0: Set Up the Environment
@@ -97,12 +104,6 @@ For SFT training, you can refer to the training scipts of [LLaMA-Factory](https:
 ### 4. Reinforcement Learning
 
 We use the modified [verl](https://github.com/volcengine/verl) for RL training.
-
-## 🚀 Performance
-
-<p align="center">
-  <img src="./assets/performance.png" alt="logo" width="80%"/>
-</p>
 
 ## 🤩 Acknowledgements
 
