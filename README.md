@@ -34,7 +34,7 @@
 - Native agentic search reasoning model using ReAct framework towards autonomous information seeking agency and _Deep Research_-like model.
 - We introduce a four-stage training paradigm comprising **browsing data construction, trajectory sampling, supervised fine-tuning for effective cold start, and reinforcement learning for improved generalization**, enabling the agent to autonomously acquire autonomous search and reasoning skills.
 - Our data-centric approach integrates trajectory-level supervision fine-tuning and reinforcement learning (DAPO) to develop a scalable pipeline for **training agentic systems** via SFT or RL.
-- WebDancer achieves a Pass@3 score of 61.1% on GAIA and 54.6% on WebWalkerQA.
+- WebDancer achieves a Pass@3 score of 64.1% on GAIA and 62.0% on WebWalkerQA.
 
 ## 🚀 Quick Start
 
@@ -60,7 +60,7 @@ bash depoly_model.sh WebDancer_PATH
 
 ### Step 2: Run the Demo
 
-Edit the following keys in [`WebDancer/scripts/run_demo.sh`](scripts/run_demo.sh):
+Edit the following keys in [`WebDancer/scripts/run_demo.sh`](WebDancer/scripts/run_demo.sh):
 
 - `GOOGLE_SEARCH_KEY`
 - `JINA_API_KEY`
@@ -124,7 +124,7 @@ If this work is helpful, please kindly cite as:
 }
 ```
 
-The repo is contributed by [Jialong Wu](https://callanwu.github.io/), if you have any questions, please feel free to contact via jialongwu@alibaba-inc.com or jialongwu@seu.edu.cn or create an issue.
+The repo is contributed by [Jialong Wu](https://callanwu.github.io/), if you have any questions, please feel free to contact via wujialongml@gmail.com or create an issue.
 
 ## 🌟Misc
 
