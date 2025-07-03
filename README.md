@@ -100,7 +100,7 @@ We provide demos for BrowseComp-en, BrowseComp-zh and Daily Use. Our model can c
 
 <div align="center">
     <h3>Daily Use</h3>
-    <video src="" />
+    <video src="https://github.com/user-attachments/assets/1299c5a8-cee3-4a70-b68b-c5d227cf8055" />
 </div>
 
 ## 🎥 WebDancer Demos
