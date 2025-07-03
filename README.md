@@ -90,17 +90,17 @@ We provide demos for BrowseComp-en, BrowseComp-zh and Daily Use. Our model can c
 
 <div align="center">
     <h3>BrowseComp-en</h3>
-    <video src="WebSailor/assets/bc_en.mp4" />
+    <video src= "https://github.com/user-attachments/assets/2dc0b03a-c241-4f70-bf11-92fda28020fa"/>
 </div>
 
 <div align="center">
     <h3>BrowseComp-zh</h3>
-    <video src="WebSailor/assets/bc_zh.mp4" />
+    <video src="https://github.com/user-attachments/assets/f9aed746-ffc8-4b76-b135-715ec0eab544" />
 </div>
 
 <div align="center">
     <h3>Daily Use</h3>
-    <video src="WebSailor/assets/daily.mp4" />
+    <video src="" />
 </div>
 
 ## 🎥 WebDancer Demos
