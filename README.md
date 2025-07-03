@@ -5,29 +5,40 @@
 </div>
 
 <p align="center">
-🤗 <a href="https://huggingface.co/datasets/callanwu/WebWalkerQA" target="_blank">WebWalkerQA</a>  | 
-🤗 <a href="https://huggingface.co/Alibaba-NLP/WebDancer-32B" target="_blank">WebDancer-QwQ-32B</a>
+🤗 <a href="https://huggingface.co/Alibaba-NLP/WebSailor" target="_blank">WebSailor</a> ｜
+🤗 <a href="https://huggingface.co/Alibaba-NLP/WebDancer-32B" target="_blank">WebDancer-QwQ-32B</a>  | 
+🤗 <a href="https://huggingface.co/datasets/callanwu/WebWalkerQA" target="_blank">WebWalkerQA</a>  
+
 </p>
 
 <div align="center">
 <p align="center">
-  <img src="assets/roadmap.jpg" width="100%" height="50%" />
+  <img src="assets/roadmap.png" width="100%" height="50%" />
 </p>
 </div>
 
-> You can check the paper of [WebDancer](https://arxiv.org/pdf/2505.22648) and [WebWalker](https://arxiv.org/pdf/2501.07572).
+> You can check the paper of [WebDancer](https://arxiv.org/pdf/2505.22648) and [WebWalker](https://arxiv.org/pdf/2501.07572) and [WebSailor](./WebSailor/assets/WebSailor.pdf).
 
 > 💥 💥 💥 Stay tuned for more updates! We are working on the building native agentic model based on Browser and more open-domained environments!
 
+- [**WebSailor**](WebSailor) (Preprint 2025) - WebSailor: Navigating Super-human Reasoning for Web Agent
 - [**WebDancer**](WebDancer) (Preprint 2025) - WebDancer: Towards Autonomous Information Seeking Agency
 - [**WebWalker**](WebWalker) (ACL 2025) - WebWalker: Benchmarking LLMs in Web Traversal
 
 ## 📰News and Updates
 
+- `2025.07.03` 🔥🔥🔥We release **WebSailor**, an agentic search model specialized in performing extremely complex information seeking tasks, achieving open-source SOTA on some of the most difficult browsing benchmarks.
 - `2025.06.23` 🔥🔥🔥The model, interactive demo, and some of the data of **WebDancer** have been open-sourced. You're welcome to try them out!
 - `2025.05.29` 🔥🔥🔥We release **WebDancer**, a native agentic search model towards autonomous information seeking agency and _Deep Research_-like model.
 - `2025.05.15` **WebWalker** is accepted by ACL 2025 main conference.
 - `2025.01.14` We relaese **WebWalker**, a benchmark for LLMs in web traversal and a multi-agent framework for information seeking.
+
+## ⛵️Features for WebSailor
+
+- A complete post-training methodology enabling models to engage in extended thinking and information seeking, ultimately allowing them to successfully complete extremely complex tasks previously considered unsolvable.
+- Introduces **SailorFog-QA**, a scalable QA benchmark with high uncertainty and difficulty, curated with a novel data synthesis method through graph sampling and information obfuscation.
+- Effective post-training pipeline consisting of (1) high quality reconstruction of concise reasoning from expert trajectories for clean supervision, (2) a two-stage training process involving an RFT cold start stage, follwed by **Duplicating Sampling Policy Optimization (DUPO)**, an efficient agentic RL algorithm excelling in effectiveness and efficiency.
+- WebSailor-72B significantly outperforms all open-source agents and frameworks while closes the performance gap with leading proprietary systems, achieving a score of **12.0** on BrowseComp-en, **30.1** on BrowseComp-zh, and **55.4** on GAIA.
 
 ## 🌐Features for WebDancer
 
@@ -73,7 +84,26 @@ cd scripts
 bash run_demo.sh
 ```
 
-## 🎥 Demos
+## 🎥 WebSailor Demos
+
+We provide demos for BrowseComp-en, BrowseComp-zh and Daily Use. Our model can complete highly difficult and uncertain tasks requiring massive information acquisition and complex reasoning.
+
+<div align="center">
+    <h3>BrowseComp-en</h3>
+    <video src="./WebSailor/assets/bc_en.mp4" />
+</div>
+
+<div align="center">
+    <h3>BrowseComp-zh</h3>
+    <video src="./WebSailor/assets/bc_zh.mp4" />
+</div>
+
+<div align="center">
+    <h3>Daily Use</h3>
+    <video src="./WebSailor/assets/daily.mp4" />
+</div>
+
+## 🎥 WebDancer Demos
 
 We provide demos for WebWalkerQA, GAIA and Daily Use.
 Our model can execute the long-horizon tasks with **multiple steps** and **complex reasoning**, such as web traversal, information seeking and question answering.
@@ -133,3 +163,11 @@ The repo is contributed by [Jialong Wu](https://callanwu.github.io/), if you hav
 [![Star History Chart](https://api.star-history.com/svg?repos=Alibaba-NLP/WebAgent&type=Date)](https://www.star-history.com/#Alibaba-NLP/WebAgent&Date)
 
 </div>
+
+## 🚩Talent Recruitment
+
+🔥🔥🔥We are hiring! Research intern positions are open (base in Hangzhou、Beijing、Shanghai)  
+
+📚 **Research Area**：Web Agent, Search Agent, Agent RL, MultiAgent RL, Agentic RAG   
+
+☎️ **Contact**：[yongjiang.jy@alibaba-inc.com]()
