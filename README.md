@@ -46,7 +46,7 @@
 - Native agentic search reasoning model using ReAct framework towards autonomous information seeking agency and _Deep Research_-like model.
 - We introduce a four-stage training paradigm comprising **browsing data construction, trajectory sampling, supervised fine-tuning for effective cold start, and reinforcement learning for improved generalization**, enabling the agent to autonomously acquire autonomous search and reasoning skills.
 - Our data-centric approach integrates trajectory-level supervision fine-tuning and reinforcement learning (DAPO) to develop a scalable pipeline for **training agentic systems** via SFT or RL.
-- WebDancer achieves a Pass@3 score of 64.1% on GAIA and 62.0% on WebWalkerQA.
+- WebDancer achieves a **Pass@3 score of 64.1% on GAIA** and **62.0% on WebWalkerQA**.
 
 ## 🚀 Quick Start
 
@@ -124,7 +124,6 @@ Our model can execute the long-horizon tasks with **multiple steps** and **compl
     <video src="https://github.com/user-attachments/assets/d1d5b533-4009-478b-bd87-96b86389327d" />
 </div>
 
-⌛️ The deployment of models and demos will be updated soon.
 
 ## 📃License
 
@@ -135,6 +134,15 @@ The content of this project itself is licensed under [LICENSE](LICENSE).
 If this work is helpful, please kindly cite as:
 
 ```bigquery
+@misc{li2025websailor,
+      title={WebSailor: Navigating Super-human Reasoning for Web Agent}, 
+      author={Kuan Li and Zhongwang Zhang and Huifeng Yin and Liwen Zhang and Litu Ou and Jialong Wu and Wenbiao Yin and Baixuan Li and Zhengwei Tao and Xinyu Wang and Weizhou Shen and Junkai Zhang and Dingchu Zhang and Xixi Wu and Yong Jiang and Ming Yan and Pengjun Xie and Fei Huang and Jingren Zhou},
+      year={2025},
+      eprint={2507.02592},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2507.02592}, 
+}
 @misc{wu2025webdancer,
       title={WebDancer: Towards Autonomous Information Seeking Agency},
       author={Jialong Wu and Baixuan Li and Runnan Fang and Wenbiao Yin and Liwen Zhang and Zhengwei Tao and Dingchu Zhang and Zekun Xi and Yong Jiang and Pengjun Xie and Fei Huang and Jingren Zhou},
