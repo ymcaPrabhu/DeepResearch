@@ -38,7 +38,7 @@
 - A complete post-training methodology enabling models to engage in extended thinking and information seeking, ultimately allowing them to successfully complete extremely complex tasks previously considered unsolvable.
 - Introduces **SailorFog-QA**, a scalable QA benchmark with high uncertainty and difficulty, curated with a novel data synthesis method through graph sampling and information obfuscation.
 - Effective post-training pipeline consisting of (1) high quality reconstruction of concise reasoning from expert trajectories for clean supervision, (2) a two-stage training process involving an RFT cold start stage, follwed by **Duplicating Sampling Policy Optimization (DUPO)**, an efficient agentic RL algorithm excelling in effectiveness and efficiency.
-- WebSailor-72B significantly outperforms all open-source agents and frameworks while closes the performance gap with leading proprietary systems, achieving a **Pass@1** score of **12.0%** on BrowseComp-en, **30.1%** on BrowseComp-zh, and **55.4%** on GAIA.
+- WebSailor-72B significantly outperforms all open-source agents and frameworks while closes the performance gap with leading proprietary systems, achieving a **Pass@1** score of **12.0%** on BrowseComp-en, **30.1%** on BrowseComp-zh, 55.0 on **Xbench-DeepSearch and**, and **55.4%** on GAIA.
 - **The checkpoint is coming soon.**
 
 ## 🌐Features for WebDancer
