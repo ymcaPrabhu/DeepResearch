@@ -19,7 +19,7 @@
 
 > You can check the paper of [WebDancer](https://arxiv.org/pdf/2505.22648) and [WebWalker](https://arxiv.org/pdf/2501.07572) and [WebSailor](./WebSailor/assets/WebSailor.pdf).
 
-> 💥 💥 💥 Stay tuned for more updates! We are working on the building native agentic model based on Browser and more open-domained environments!
+> 💥 💥 💥 Stay tuned for more updates! We are working on building native agentic model based on the Browser and more open-domain environments!
 
 - [**WebSailor**](WebSailor) (Preprint 2025) - WebSailor: Navigating Super-human Reasoning for Web Agent
 - [**WebDancer**](WebDancer) (Preprint 2025) - WebDancer: Towards Autonomous Information Seeking Agency
@@ -31,7 +31,7 @@
 - `2025.06.23` 🔥🔥🔥The model, interactive demo, and some of the data of **WebDancer** have been open-sourced. You're welcome to try them out!
 - `2025.05.29` 🔥🔥🔥We release **WebDancer**, a native agentic search model towards autonomous information seeking agency and _Deep Research_-like model.
 - `2025.05.15` **WebWalker** is accepted by ACL 2025 main conference.
-- `2025.01.14` We relaese **WebWalker**, a benchmark for LLMs in web traversal and a multi-agent framework for information seeking.
+- `2025.01.14` We release **WebWalker**, a benchmark for LLMs in web traversal and a multi-agent framework for information seeking.
 
 ## 💎Results Showcase
 
@@ -45,8 +45,8 @@
 
 - A complete post-training methodology enabling models to engage in extended thinking and information seeking, ultimately allowing them to successfully complete extremely complex tasks previously considered unsolvable.
 - Introduces **SailorFog-QA**, a scalable QA benchmark with high uncertainty and difficulty, curated with a novel data synthesis method through graph sampling and information obfuscation.
-- Effective post-training pipeline consisting of (1) high quality reconstruction of concise reasoning from expert trajectories for clean supervision, (2) a two-stage training process involving an RFT cold start stage, follwed by **Duplicating Sampling Policy Optimization (DUPO)**, an efficient agentic RL algorithm excelling in effectiveness and efficiency.
-- WebSailor-72B significantly outperforms all open-source agents and frameworks while closes the performance gap with leading proprietary systems, achieving a score of **12.0%** on BrowseComp-en, **30.1%** on BrowseComp-zh, and **55.4%** on GAIA.
+- Effective post-training pipeline consisting of (1) high-quality reconstruction of concise reasoning from expert trajectories for clean supervision, (2) a two-stage training process involving an RFT cold start stage, followed by **Duplicating Sampling Policy Optimization (DUPO)**, an efficient agentic RL algorithm excelling in effectiveness and efficiency.
+- WebSailor-72B significantly outperforms all open-source agents and frameworks while closing the performance gap with leading proprietary systems, achieving a score of **12.0%** on BrowseComp-en, **30.1%** on BrowseComp-zh, and **55.4%** on GAIA.
 - **The checkpoint is coming soon.**
 
 ## 🌐Features for WebDancer
@@ -73,7 +73,7 @@ Download the WebDancer model from [🤗 HuggingFace](https://huggingface.co/Alib
 
 ```bash
 cd scripts
-bash depoly_model.sh WebDancer_PATH
+bash deploy_model.sh WebDancer_PATH
 ```
 
 > **Note:** Replace `WebDancer_PATH` with the actual path to the downloaded model.
@@ -132,7 +132,6 @@ Our model can execute the long-horizon tasks with **multiple steps** and **compl
     <video src="https://github.com/user-attachments/assets/d1d5b533-4009-478b-bd87-96b86389327d" />
 </div>
 
-⌛️ The deployment of models and demos will be updated soon.
 
 ## 📃License
 
@@ -143,6 +142,15 @@ The content of this project itself is licensed under [LICENSE](LICENSE).
 If this work is helpful, please kindly cite as:
 
 ```bigquery
+@misc{li2025websailor,
+      title={WebSailor: Navigating Super-human Reasoning for Web Agent}, 
+      author={Kuan Li and Zhongwang Zhang and Huifeng Yin and Liwen Zhang and Litu Ou and Jialong Wu and Wenbiao Yin and Baixuan Li and Zhengwei Tao and Xinyu Wang and Weizhou Shen and Junkai Zhang and Dingchu Zhang and Xixi Wu and Yong Jiang and Ming Yan and Pengjun Xie and Fei Huang and Jingren Zhou},
+      year={2025},
+      eprint={2507.02592},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2507.02592}, 
+}
 @misc{wu2025webdancer,
       title={WebDancer: Towards Autonomous Information Seeking Agency},
       author={Jialong Wu and Baixuan Li and Runnan Fang and Wenbiao Yin and Liwen Zhang and Zhengwei Tao and Dingchu Zhang and Zekun Xi and Yong Jiang and Pengjun Xie and Fei Huang and Jingren Zhou},
@@ -163,7 +171,7 @@ If this work is helpful, please kindly cite as:
 }
 ```
 
-The repo is contributed by [Jialong Wu](https://callanwu.github.io/), if you have any questions, please feel free to contact via wujialongml@gmail.com or create an issue.
+The repo is contributed by [Jialong Wu](https://callanwu.github.io/). If you have any questions, please feel free to contact via wujialongml@gmail.com or create an issue.
 
 ## 🌟Misc
 
@@ -175,7 +183,7 @@ The repo is contributed by [Jialong Wu](https://callanwu.github.io/), if you hav
 
 ## 🚩Talent Recruitment
 
-🔥🔥🔥We are hiring! Research intern positions are open (base in Hangzhou、Beijing、Shanghai)  
+🔥🔥🔥We are hiring! Research intern positions are open (based in Hangzhou、Beijing、Shanghai)  
 
 📚 **Research Area**：Web Agent, Search Agent, Agent RL, MultiAgent RL, Agentic RAG   
 
