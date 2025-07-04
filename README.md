@@ -33,12 +33,20 @@
 - `2025.05.15` **WebWalker** is accepted by ACL 2025 main conference.
 - `2025.01.14` We relaese **WebWalker**, a benchmark for LLMs in web traversal and a multi-agent framework for information seeking.
 
+## 💎Results Showcase
+
+<div align="center">
+<p align="center">
+  <img src="assets/result.png" width="800%" height="50%" />
+</p>
+</div>
+
 ## ⛵️Features for WebSailor
 
 - A complete post-training methodology enabling models to engage in extended thinking and information seeking, ultimately allowing them to successfully complete extremely complex tasks previously considered unsolvable.
 - Introduces **SailorFog-QA**, a scalable QA benchmark with high uncertainty and difficulty, curated with a novel data synthesis method through graph sampling and information obfuscation.
 - Effective post-training pipeline consisting of (1) high quality reconstruction of concise reasoning from expert trajectories for clean supervision, (2) a two-stage training process involving an RFT cold start stage, follwed by **Duplicating Sampling Policy Optimization (DUPO)**, an efficient agentic RL algorithm excelling in effectiveness and efficiency.
-- WebSailor-72B significantly outperforms all open-source agents and frameworks while closes the performance gap with leading proprietary systems, achieving a **Pass@1** score of **12.0%** on BrowseComp-en, **30.1%** on BrowseComp-zh, 55.0 on **Xbench-DeepSearch and**, and **55.4%** on GAIA.
+- WebSailor-72B significantly outperforms all open-source agents and frameworks while closes the performance gap with leading proprietary systems, achieving a score of **12.0%** on BrowseComp-en, **30.1%** on BrowseComp-zh, and **55.4%** on GAIA.
 - **The checkpoint is coming soon.**
 
 ## 🌐Features for WebDancer
@@ -46,7 +54,7 @@
 - Native agentic search reasoning model using ReAct framework towards autonomous information seeking agency and _Deep Research_-like model.
 - We introduce a four-stage training paradigm comprising **browsing data construction, trajectory sampling, supervised fine-tuning for effective cold start, and reinforcement learning for improved generalization**, enabling the agent to autonomously acquire autonomous search and reasoning skills.
 - Our data-centric approach integrates trajectory-level supervision fine-tuning and reinforcement learning (DAPO) to develop a scalable pipeline for **training agentic systems** via SFT or RL.
-- WebDancer achieves a **Pass@3 score of 64.1% on GAIA** and **62.0% on WebWalkerQA**.
+- WebDancer achieves a Pass@3 score of 64.1% on GAIA and 62.0% on WebWalkerQA.
 
 ## 🚀 Quick Start
 
@@ -124,6 +132,7 @@ Our model can execute the long-horizon tasks with **multiple steps** and **compl
     <video src="https://github.com/user-attachments/assets/d1d5b533-4009-478b-bd87-96b86389327d" />
 </div>
 
+⌛️ The deployment of models and demos will be updated soon.
 
 ## 📃License
 
@@ -134,15 +143,6 @@ The content of this project itself is licensed under [LICENSE](LICENSE).
 If this work is helpful, please kindly cite as:
 
 ```bigquery
-@misc{li2025websailor,
-      title={WebSailor: Navigating Super-human Reasoning for Web Agent}, 
-      author={Kuan Li and Zhongwang Zhang and Huifeng Yin and Liwen Zhang and Litu Ou and Jialong Wu and Wenbiao Yin and Baixuan Li and Zhengwei Tao and Xinyu Wang and Weizhou Shen and Junkai Zhang and Dingchu Zhang and Xixi Wu and Yong Jiang and Ming Yan and Pengjun Xie and Fei Huang and Jingren Zhou},
-      year={2025},
-      eprint={2507.02592},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2507.02592}, 
-}
 @misc{wu2025webdancer,
       title={WebDancer: Towards Autonomous Information Seeking Agency},
       author={Jialong Wu and Baixuan Li and Runnan Fang and Wenbiao Yin and Liwen Zhang and Zhengwei Tao and Dingchu Zhang and Zekun Xi and Yong Jiang and Pengjun Xie and Fei Huang and Jingren Zhou},
