@@ -66,7 +66,7 @@ We provide demos for BrowseComp-en, BrowseComp-zh and Daily Use. Our model can c
   <img src="./assets/qa_construction.png" alt="logo" width="80%"/>
 </p>
 
-The sampled QA data will be released soon🔥🔥🔥
+Example SailorFog-QA data samples can be found at: [dataset/sailorfog-QA.jsonl](dataset/sailorfog-QA.jsonl)
 
 ### 2. Trajectory Sampling
 
