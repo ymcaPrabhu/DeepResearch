@@ -3,11 +3,15 @@
 <h2>WebAgent for Information Seeking bulit by Tongyi Lab, Alibaba Group <img src="./assets/tongyi.png" width="30px" style="display:inline;"></h2>
 
 </div>
+<p align="center">
+<a href="https://trendshift.io/repositories/14217" target="_blank"><img src="https://trendshift.io/api/badge/repositories/14217" 
+alt="Alibaba-NLP%2FWebAgent | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+</p>
 
 <p align="center">
 🤗 <a href="https://huggingface.co/Alibaba-NLP/WebSailor" target="_blank">WebSailor</a> ｜
 🤗 <a href="https://huggingface.co/Alibaba-NLP/WebDancer-32B" target="_blank">WebDancer-QwQ-32B</a>  | 
-🤗 <a href="https://huggingface.co/datasets/callanwu/WebWalkerQA" target="_blank">WebWalkerQA</a>  
+🤗 <a href="https://huggingface.co/datasets/callanwu/WebWalkerQA" target="_blank">WebWalkerQA</a>
 
 </p>
 
@@ -82,9 +86,9 @@ bash deploy_model.sh WebDancer_PATH
 
 Edit the following keys in [`WebDancer/scripts/run_demo.sh`](WebDancer/scripts/run_demo.sh):
 
-- `GOOGLE_SEARCH_KEY`
-- `JINA_API_KEY`
-- `DASHSCOPE_API_KEY`
+- `GOOGLE_SEARCH_KEY`, you can get it from [here](https://serpapi.com/).
+- `JINA_API_KEY`, you can get it from [here](https://jina.ai/api-dashboard/).
+- `DASHSCOPE_API_KEY`, you can get it from [here](https://dashscope.aliyun.com/).
 
 Then, launch the demo with Gradio to interact with the WebDancer model:
 
@@ -132,7 +136,6 @@ Our model can execute the long-horizon tasks with **multiple steps** and **compl
     <video src="https://github.com/user-attachments/assets/d1d5b533-4009-478b-bd87-96b86389327d" />
 </div>
 
-
 ## 📃License
 
 The content of this project itself is licensed under [LICENSE](LICENSE).
@@ -143,13 +146,13 @@ If this work is helpful, please kindly cite as:
 
 ```bigquery
 @misc{li2025websailor,
-      title={WebSailor: Navigating Super-human Reasoning for Web Agent}, 
+      title={WebSailor: Navigating Super-human Reasoning for Web Agent},
       author={Kuan Li and Zhongwang Zhang and Huifeng Yin and Liwen Zhang and Litu Ou and Jialong Wu and Wenbiao Yin and Baixuan Li and Zhengwei Tao and Xinyu Wang and Weizhou Shen and Junkai Zhang and Dingchu Zhang and Xixi Wu and Yong Jiang and Ming Yan and Pengjun Xie and Fei Huang and Jingren Zhou},
       year={2025},
       eprint={2507.02592},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2507.02592}, 
+      url={https://arxiv.org/abs/2507.02592},
 }
 @misc{wu2025webdancer,
       title={WebDancer: Towards Autonomous Information Seeking Agency},
@@ -183,8 +186,8 @@ The repo is contributed by [Jialong Wu](https://callanwu.github.io/). If you hav
 
 ## 🚩Talent Recruitment
 
-🔥🔥🔥We are hiring! Research intern positions are open (based in Hangzhou、Beijing、Shanghai)  
+🔥🔥🔥We are hiring! Research intern positions are open (based in Hangzhou、Beijing、Shanghai)
 
-📚 **Research Area**：Web Agent, Search Agent, Agent RL, MultiAgent RL, Agentic RAG   
+📚 **Research Area**：Web Agent, Search Agent, Agent RL, MultiAgent RL, Agentic RAG
 
 ☎️ **Contact**：[yongjiang.jy@alibaba-inc.com]()

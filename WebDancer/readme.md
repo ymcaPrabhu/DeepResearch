@@ -19,7 +19,6 @@
   <img src="./assets/performance.png" alt="logo" width="80%"/>
 </p>
 
-
 ## 🚀 Quick Start
 
 ### Step 0: Set Up the Environment
@@ -44,9 +43,9 @@ bash depoly_model.sh WebDancer_PATH
 
 Edit the following keys in [`scripts/run_demo.sh`](scripts/run_demo.sh):
 
-- `GOOGLE_SEARCH_KEY`
-- `JINA_API_KEY`
-- `DASHSCOPE_API_KEY`
+- `GOOGLE_SEARCH_KEY`, you can get it from [here](https://serpapi.com/).
+- `JINA_API_KEY`, you can get it from [here](https://jina.ai/api-dashboard/).
+- `DASHSCOPE_API_KEY`, you can get it from [here](https://dashscope.aliyun.com/).
 
 Then, launch the demo with Gradio to interact with the WebDancer model:
 
