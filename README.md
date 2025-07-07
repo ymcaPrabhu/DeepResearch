@@ -27,7 +27,7 @@
 
 ## 📰News and Updates
 
-- `2025.07.03` 🔥🔥🔥We release **WebSailor**, an agentic search model specialized in performing extremely complex information seeking tasks, achieving open-source SOTA on some of the most difficult browsing benchmarks.
+- `2025.07.03` 🔥🔥🔥We release **WebSailor**, an agentic search model specialized in performing extremely complex information seeking tasks, achieving open-source SOTA on some of the most difficult browsing benchmarks. **WebSailor** topped the HuggingFace [daily papers](https://huggingface.co/papers/2507.02592).
 - `2025.06.23` 🔥🔥🔥The model, interactive demo, and some of the data of **WebDancer** have been open-sourced. You're welcome to try them out!
 - `2025.05.29` 🔥🔥🔥We release **WebDancer**, a native agentic search model towards autonomous information seeking agency and _Deep Research_-like model.
 - `2025.05.15` **WebWalker** is accepted by ACL 2025 main conference.
