@@ -145,19 +145,6 @@ def app_gui():
         agents.append(search_bot_dev)
 
 
-    for name, port, desc, reasoning, max_llm_calls, tools in [
-        ('WebDancer-QwQ-32B', 8004, '...', True, 50, ['search', 'visit']),
-    ]:
-        search_bot_dev = init_dev_search_agent_service(
-            name=name,
-            port=port,
-            desc=desc,
-            reasoning=reasoning,
-            max_llm_calls=max_llm_calls,
-            tools=tools,
-        )
-        agents.append(search_bot_dev)
-
     chatbot_config = {
         'prompt.suggestions': [
             '中国国足的一场比赛，国足首先失球，由一名宿姓球员扳平了。后来还发生了点球。比分最终是平均。有可能是哪几场比赛',
