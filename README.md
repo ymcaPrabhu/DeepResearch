@@ -29,7 +29,7 @@ alt="Alibaba-NLP%2FWebAgent | Trendshift" style="width: 250px; height: 55px;" wi
 - [**WebDancer**](WebDancer) (Preprint 2025) - WebDancer: Towards Autonomous Information Seeking Agency
 - [**WebWalker**](WebWalker) (ACL 2025) - WebWalker: Benchmarking LLMs in Web Traversal
 
-## 📰News and Updates
+## 📰 News and Updates
 
 - `2025.07.03` 🔥🔥🔥We release **WebSailor**, an agentic search model specialized in performing extremely complex information seeking tasks, achieving open-source SOTA on some of the most difficult browsing benchmarks. **WebSailor** topped the HuggingFace [daily papers](https://huggingface.co/papers/2507.02592).
 - `2025.06.23` 🔥🔥🔥The model, interactive demo, and some of the data of **WebDancer** have been open-sourced. You're welcome to try them out!
@@ -37,7 +37,7 @@ alt="Alibaba-NLP%2FWebAgent | Trendshift" style="width: 250px; height: 55px;" wi
 - `2025.05.15` **WebWalker** is accepted by ACL 2025 main conference.
 - `2025.01.14` We release **WebWalker**, a benchmark for LLMs in web traversal and a multi-agent framework for information seeking.
 
-## 💎Results Showcase
+## 💎 Results Showcase
 
 <div align="center">
 <p align="center">
@@ -45,7 +45,7 @@ alt="Alibaba-NLP%2FWebAgent | Trendshift" style="width: 250px; height: 55px;" wi
 </p>
 </div>
 
-## ⛵️Features for WebSailor
+## ⛵️ Features for WebSailor
 
 - A complete post-training methodology enabling models to engage in extended thinking and information seeking, ultimately allowing them to successfully complete extremely complex tasks previously considered unsolvable.
 - Introduces **SailorFog-QA**, a scalable QA benchmark with high uncertainty and difficulty, curated with a novel data synthesis method through graph sampling and information obfuscation. Example SailorFog-QA data samples can be found at: [`WebSailor/dataset/sailorfog-QA.jsonl`](WebSailor/dataset/sailorfog-QA.jsonl)
@@ -53,7 +53,7 @@ alt="Alibaba-NLP%2FWebAgent | Trendshift" style="width: 250px; height: 55px;" wi
 - WebSailor-72B significantly outperforms all open-source agents and frameworks while closing the performance gap with leading proprietary systems, achieving a score of **12.0%** on BrowseComp-en, **30.1%** on BrowseComp-zh, and **55.4%** on GAIA.
 - **The checkpoint is coming soon.**
 
-## 🌐Features for WebDancer
+## 🌐 Features for WebDancer
 
 - Native agentic search reasoning model using ReAct framework towards autonomous information seeking agency and _Deep Research_-like model.
 - We introduce a four-stage training paradigm comprising **browsing data construction, trajectory sampling, supervised fine-tuning for effective cold start, and reinforcement learning for improved generalization**, enabling the agent to autonomously acquire autonomous search and reasoning skills.
@@ -136,11 +136,11 @@ Our model can execute the long-horizon tasks with **multiple steps** and **compl
     <video src="https://github.com/user-attachments/assets/d1d5b533-4009-478b-bd87-96b86389327d" />
 </div>
 
-## 📃License
+## 📃 License
 
 The content of this project itself is licensed under [LICENSE](LICENSE).
 
-## 🚩Citation
+## 🚩 Citation
 
 If this work is helpful, please kindly cite as:
 
@@ -176,7 +176,7 @@ If this work is helpful, please kindly cite as:
 
 The repo is contributed by [Jialong Wu](https://callanwu.github.io/). If you have any questions, please feel free to contact via wujialongml@gmail.com or create an issue.
 
-## 🌟Misc
+## 🌟 Misc
 
 <div align="center">
 
@@ -184,9 +184,9 @@ The repo is contributed by [Jialong Wu](https://callanwu.github.io/). If you hav
 
 </div>
 
-## 🚩Talent Recruitment
+## 🚩 Talent Recruitment
 
-🔥🔥🔥We are hiring! Research intern positions are open (based in Hangzhou、Beijing、Shanghai)
+🔥🔥🔥 We are hiring! Research intern positions are open (based in Hangzhou、Beijing、Shanghai)
 
 📚 **Research Area**：Web Agent, Search Agent, Agent RL, MultiAgent RL, Agentic RAG
 
