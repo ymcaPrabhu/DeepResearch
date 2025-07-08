@@ -43,9 +43,9 @@ bash depoly_model.sh WebDancer_PATH
 
 Edit the following keys in [`scripts/run_demo.sh`](scripts/run_demo.sh):
 
-- `GOOGLE_SEARCH_KEY`, you can get it from [here](https://serpapi.com/).
-- `JINA_API_KEY`, you can get it from [here](https://jina.ai/api-dashboard/).
-- `DASHSCOPE_API_KEY`, you can get it from [here](https://dashscope.aliyun.com/).
+- `GOOGLE_SEARCH_KEY`, you can get it from [serpapi](https://serpapi.com/) or [serper](https://serper.dev/).
+- `JINA_API_KEY`, you can get it from [jina](https://jina.ai/api-dashboard/).
+- `DASHSCOPE_API_KEY`, you can get it from [dashscope](https://dashscope.aliyun.com/).
 
 Then, launch the demo with Gradio to interact with the WebDancer model:
 
