@@ -17,7 +17,7 @@ alt="Alibaba-NLP%2FWebAgent | Trendshift" style="width: 250px; height: 55px;" wi
 
 <div align="center">
 <p align="center">
-  <img src="assets/roadmap.png" width="100%" height="100%" />
+  <img src="assets/roadmap.png" width="100%" height="200%" />
 </p>
 </div>
 
