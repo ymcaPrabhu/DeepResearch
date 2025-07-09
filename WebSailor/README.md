@@ -25,7 +25,7 @@
 
 2. A more comprehensive evaluation sees **WebSailor** emerges as the best open-source web agent, while being competitive against leading proprietary agents.
 <p align="center">
-  <img src="./assets/performance.png" alt="logo" width="80%"/>
+  <img src="./assets/performance.jpg" alt="logo" width="80%"/>
 </p>
 
 3. Despite being trained on high-difficulty data, WebSailor generalizes well on simpler benchmarks like SimpleQA, where even the 32B results can surpass all baseline methods.
