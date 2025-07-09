@@ -175,8 +175,6 @@ If this work is helpful, please kindly cite as:
 }
 ```
 
-The repo is contributed by [Jialong Wu](https://callanwu.github.io/). If you have any questions, please feel free to contact via wujialongml@gmail.com or create an issue.
-
 ## 🌟 Misc
 
 <div align="center">
@@ -192,3 +190,8 @@ The repo is contributed by [Jialong Wu](https://callanwu.github.io/). If you hav
 📚 **Research Area**：Web Agent, Search Agent, Agent RL, MultiAgent RL, Agentic RAG
 
 ☎️ **Contact**：[yongjiang.jy@alibaba-inc.com]()
+
+
+## Contact Information
+
+For communications, please contact Yong Jiang (yongjiang.jy@alibaba-inc.com).
