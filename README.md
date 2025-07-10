@@ -9,7 +9,7 @@ alt="Alibaba-NLP%2FWebAgent | Trendshift" style="width: 250px; height: 55px;" wi
 </p>
 
 <p align="center">
-🤗 <a href="https://huggingface.co/Alibaba-NLP/WebSailor-3B" target="_blank">WebSailor</a> ｜
+🤗 <a href="https://huggingface.co/Alibaba-NLP/WebSailor-3B" target="_blank">WebSailor-3B</a> ｜
 🤗 <a href="https://huggingface.co/Alibaba-NLP/WebDancer-32B" target="_blank">WebDancer-QwQ-32B</a>  | 
 <img src="./assets/tongyi.png" width="14px" style="display:inline;"> <a href="https://modelscope.cn/models/iic/WebDancer-32B" target="_blank">ModelScope WebDancer-QwQ-32B</a> |
 🤗 <a href="https://huggingface.co/datasets/callanwu/WebWalkerQA" target="_blank">WebWalkerQA</a>
