@@ -29,45 +29,39 @@ class Search(BaseTool):
     }
 
     def google_search(self, query: str):
-        url = 'https://idealab.alibaba-inc.com/api/v1/search/search'
+        url = 'https://google.serper.dev/search'
         headers = {
-            'X-AK': GOOGLE_SEARCH_KEY,
+            'X-API-KEY': GOOGLE_SEARCH_KEY,
             'Content-Type': 'application/json',
         }
         data = {
-            "query": query,
+            "q": query,
             "num": 10,
             "extendParams": {
                 "country": "en",
                 "page": 1,
             },
-            "platformInput": {
-                "model": "google-search"
-            }
         }
 
         for i in range(5):
             try:
                 response = requests.post(url, headers=headers, data=json.dumps(data))
                 results = response.json()
-                break
             except Exception as e:
                 print(e)
                 if i == 4:
                     return f"Google search Timeout, return None, Please try again later."
-                continue
-    
         if response.status_code != 200:
             raise Exception(f"Error: {response.status_code} - {response.text}")
 
         try:
-            if "organic" not in results["data"]["originalOutput"]:
+            if "organic" not in results:
                 raise Exception(f"No results found for query: '{query}'. Use a less specific query.")
 
             web_snippets = list()
             idx = 0
-            if "organic" in results["data"]["originalOutput"]:
-                for page in results["data"]["originalOutput"]["organic"]:
+            if "organic" in results:
+                for page in results["organic"]:
                     idx += 1
                     date_published = ""
                     if "date" in page:

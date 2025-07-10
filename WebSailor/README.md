@@ -38,18 +38,22 @@
 ### Step 0: Set Up the Environment
 
 ```bash
-conda create -n webdancer python=3.11
+conda create -n websailor python=3.11
 pip install -r requirements.txt
 ```
+
 ### Step 1: Download the WebSailor model
+
 You can download WebSailor via Hugging Face [🤗 HuggingFace](https://huggingface.co/Alibaba-NLP/WebSailor-3B).
 
 ### Step 2: Inference with tools
+
 We provide an example script for evaluation at /src/scripts/test.sh.
 
 This script will launch the local SGLang Server, including both the evaluation model and the summary model (currently Qwen2.5-72B-Instruct). It will then perform inference three times. Finally, the evaluation will be conducted based on the results of these three inferences. **Please specify the model path to be evaluated, the dataset name, and the output folder name.**
 
-*You need to specify your Google search key and Jina key in the script.*
+_You need to specify your Google search key and Jina key in the script._
+
 ## 🎥 Demos
 
 We provide demos for BrowseComp-en, BrowseComp-zh and Daily Use. Our model can complete highly difficult and uncertain tasks requiring massive information acquisition and complex reasoning.

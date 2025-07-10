@@ -52,7 +52,6 @@ class Search(BaseTool):
             "q": query,
         }
 
-
         for i in range(5):
             try:
                 response = requests.post(url, headers=headers, data=json.dumps(data))

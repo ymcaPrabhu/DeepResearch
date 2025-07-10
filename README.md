@@ -87,7 +87,7 @@ bash deploy_model.sh WebDancer_PATH
 
 Edit the following keys in [`WebDancer/scripts/run_demo.sh`](WebDancer/scripts/run_demo.sh):
 
-- `GOOGLE_SEARCH_KEY`, you can get it from [serpapi](https://serpapi.com/) or [serper](https://serper.dev/).
+- `GOOGLE_SEARCH_KEY`, you can get it from [serper](https://serper.dev/).
 - `JINA_API_KEY`, you can get it from [jina](https://jina.ai/api-dashboard/).
 - `DASHSCOPE_API_KEY`, you can get it from [dashscope](https://dashscope.aliyun.com/).
 
@@ -190,7 +190,6 @@ If this work is helpful, please kindly cite as:
 📚 **Research Area**：Web Agent, Search Agent, Agent RL, MultiAgent RL, Agentic RAG
 
 ☎️ **Contact**：[yongjiang.jy@alibaba-inc.com]()
-
 
 ## Contact Information
 
