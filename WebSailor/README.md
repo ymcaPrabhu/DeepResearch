@@ -106,3 +106,16 @@ The sampled trajectory data will be released soon🔥🔥🔥
 ### 3. Reinforcement Learning
 
 We propose **Duplicating Sampling Policy Optimization (DUPO)** to further train our model after the RFT cold-start stage. We use [verl](https://github.com/volcengine/verl) for RL training.
+
+
+## 📑 Citation
+
+If this work is helpful, please kindly cite as:
+
+```bigquery
+@article{li2025websailor,
+  title={WebSailor: Navigating Super-human Reasoning for Web Agent},
+  author={Li, Kuan and Zhang, Zhongwang and Yin, Huifeng and Zhang, Liwen and Ou, Litu and Wu, Jialong and Yin, Wenbiao and Li, Baixuan and Tao, Zhengwei and Wang, Xinyu and others},
+  journal={arXiv preprint arXiv:2507.02592},
+  year={2025}
+}
