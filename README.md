@@ -36,6 +36,7 @@ alt="Alibaba-NLP%2FWebAgent | Trendshift" style="width: 250px; height: 55px;" wi
 
 ## 📰 News and Updates
 
+- `2025.07.11` 🔥🔥🔥**WebSailor-3B** is [released](https://huggingface.co/Alibaba-NLP/WebSailor-3B). You can deploy it with one click using <img src="./assets/aliyun.png" width="14px" style="display:inline;"> [Alibaba Cloud's FunctionAI](https://functionai.console.aliyun.com/template-detail?template=Alibaba-NLP-WebSailor-3B) in ten minutes!
 - `2025.07.03` 🔥🔥🔥We release **WebSailor**, an agentic search model specialized in performing extremely complex information seeking tasks, achieving open-source SOTA on some of the most difficult browsing benchmarks. **WebSailor** topped the HuggingFace [daily papers](https://huggingface.co/papers/2507.02592).
 - `2025.06.23` 🔥🔥🔥The model, interactive demo, and some of the data of **WebDancer** have been open-sourced. You're welcome to try them out!
 - `2025.05.29` 🔥🔥🔥We release **WebDancer**, a native agentic search model towards autonomous information seeking agency and _Deep Research_-like model.
