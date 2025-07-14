@@ -16,35 +16,6 @@ from demos.tools import Visit, Search
 ROOT_RESOURCE = os.path.join(os.path.dirname(__file__), 'resource')
 
 
-def init_qwen_agent_service(model: str = 'qwq-32b'):
-    llm_cfg = QwenChatAtDS({
-        'model': model,
-        'model_type': 'qwen_dashscope',
-        'model_server': 'https://dashscope.aliyuncs.com/compatible-mode/v1',
-        'api_key': os.getenv('DASHSCOPE_API_KEY', ''),
-        'generate_cfg': {
-            'fncall_prompt_type': 'nous',
-        },
-    })
-    tools = [
-        'search',
-        'visit',
-    ]
-    bot = Assistant(
-        llm=llm_cfg,
-        function_list=tools,
-        system_message="You are a Web Information Seeking Master. Your task is to thoroughly seek the internet for information and provide accurate answers to questions. with chinese language." \
-                       "And you are also a Location-Based Services (LBS) assistant designed to help users find location-specific information." \
-                        "No matter how complex the query, you will not give up until you find the corresponding information.\n\nAs you proceed, adhere to the following principles:\n\n" \
-                        "1. **Persistent Actions for Answers**: You will engage in many interactions, delving deeply into the topic to explore all possible aspects until a satisfactory answer is found.\n\n" \
-                        "2. **Repeated Verification**: Before presenting a Final Answer, you will **cross-check** and **validate the information** you've gathered to confirm its accuracy and reliability.\n\n" \
-                        "3. **Attention to Detail**: You will carefully analyze each information source to ensure that all data is current, relevant, and from credible origins.\n" \
-                        f"\n\nPlease note that the current datetime is [{date2str(get_date_now(), with_week=True)}]. When responding, consider the time to provide contextually relevant information.",
-        name='Agent@%s' % model.upper(),
-        description=f"我是通用场景下的智能体（{model}），能够边搜索边思考、交通路线查询规划以及目的地推荐，欢迎试用!!!"
-    )
-
-    return bot
 
 def init_dev_search_agent_service(name: str = 'SEARCH', port: int = 8002, desc: str = '初版', reasoning: bool = True, max_llm_calls: int = 20, tools = ['search', 'visit'], addtional_agent = None):
     llm_cfg = TextChatAtOAI({
@@ -113,20 +84,6 @@ User: '''
 
     return bot
 
-
-def app_tui():
-    search_bot_dev = init_dev_search_agent_service()
-    search_bot_qwen = init_qwen_agent_service()
-
-    messages = []
-    while True:
-        query = input('user question: ')
-        messages.append({'role': 'user', 'content': query})
-        response = []
-        response_plain_text = ''
-        for response in search_bot_dev.run(messages=messages):
-            response_plain_text = typewriter_print(response, response_plain_text)
-        messages.extend(response)
 
 
 def app_gui():
