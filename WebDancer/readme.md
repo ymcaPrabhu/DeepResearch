@@ -34,7 +34,7 @@ Download the WebDancer model from [🤗 HuggingFace](https://huggingface.co/Alib
 
 ```bash
 cd scripts
-bash depoly_model.sh WebDancer_PATH
+bash deploy_model.sh WebDancer_PATH
 ```
 
 > **Note:** Replace `WebDancer_PATH` with the actual path to the downloaded model.
