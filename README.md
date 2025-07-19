@@ -47,7 +47,13 @@ alt="Alibaba-NLP%2FWebAgent | Trendshift" style="width: 250px; height: 55px;" wi
 
 <div align="center">
 <p align="center">
-  <img src="assets/result.png" width="800%" height="400%" />
+  <img src="assets/webagent-gaia.png" width="800%" height="400%" />
+</p>
+</div>
+
+<div align="center">
+<p align="center">
+  <img src="assets/webagent-bc.png" width="800%" height="400%" />
 </p>
 </div>
 
