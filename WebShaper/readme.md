@@ -1,4 +1,4 @@
-# WebDancer: Towards Autonomous Information Seeking Agency
+# WebShaper: Towards Autonomous Information Seeking Agency
 
 <p align="center">
   <img src="./assets/webshaper.png" alt="logo" width="40%"/>
