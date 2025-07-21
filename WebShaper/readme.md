@@ -41,13 +41,14 @@ Data fields:
 (a) Previous methods retrieve and organize collected information in advance, then synthesize data according to the information structures.
 (b) Our method establishes the **task formalization** first, then collects information, and synthesizes QA data based on the formalization.
 
-> Case Study:
+> Formalization:
 
 <p align="center">
   <img src="./assets/case.png" alt="logo" width="80%"/>
 </p>
 
-A question-answer case in our information-seeking formalization. We use the purple diagram to represent a knowledge projection, which is a set of entities.
+A formal question-answer case in our information-seeking formalization. We use the purple diagram to represent a knowledge projection, which is a set of entities. KP has two core operations: R-Union and intersection. 
+
 
 ## Layer-wise Structure
 
@@ -56,6 +57,16 @@ A question-answer case in our information-seeking formalization. We use the purp
 </p>
 
 Structures on different expansion paradigms. (a) Random Structure denotes expanding by randomly adding constants. (b) Sequential Structure is expanding on a chain of reasoning sequence. (c) Layer-wise Structure traverses layer-wisely on leaf constants and replaces them with variables. `Target` stands for target variable. `Variable` means the intermediate variable. `Constant` is the constant in our KP representation.
+
+## Case Study
+<p align="center">
+  <img src="./assets/case.png" alt="logo" width="80%"/>
+</p>
+
+Compared with linear structure and sequential structure, our synthesized data has no problems of redundancy and reasoning shortcuts. The model should strictly seek information and reason alongside all the variables to find the answer. There are no constants directly connected to the target variable T or variables close to it. Besides, there are no constants connected to other constants.
+
+Moreover, R-Union effects well in our data. The underlined FP is a summarization of distributed web contents, leading to more difficulty in resolving the variables K, N, and M. Benefiting from the formalization, our data contains a variety of IS forms, which can fully stimulate the different IS capabilities of the model.
+
 
 <!-- ## 📑 Citation
 
