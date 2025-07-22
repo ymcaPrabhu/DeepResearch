@@ -67,15 +67,18 @@ Compared with linear structure and sequential structure, our synthesized data ha
 
 Moreover, R-Union effects well in our data. The underlined FP is a summarization of distributed web contents, leading to more difficulty in resolving the variables K, N, and M. Benefiting from the formalization, our data contains a variety of IS forms, which can fully stimulate the different IS capabilities of the model.
 
-<!-- ## 📑 Citation
+## 📑 Citation
 
 If this work is helpful, please kindly cite as:
 
 ```bigquery
-@article{li2025websailor,
-  title={WebSailor: Navigating Super-human Reasoning for Web Agent},
-  author={Li, Kuan and Zhang, Zhongwang and Yin, Huifeng and Zhang, Liwen and Ou, Litu and Wu, Jialong and Yin, Wenbiao and Li, Baixuan and Tao, Zhengwei and Wang, Xinyu and others},
-  journal={arXiv preprint arXiv:2507.02592},
-  year={2025}
+@misc{tao2025webshaperagenticallydatasynthesizing,
+      title={WebShaper: Agentically Data Synthesizing via Information-Seeking Formalization}, 
+      author={Zhengwei Tao and Jialong Wu and Wenbiao Yin and Junkai Zhang and Baixuan Li and Haiyang Shen and Kuan Li and Liwen Zhang and Xinyu Wang and Yong Jiang and Pengjun Xie and Fei Huang and Jingren Zhou},
+      year={2025},
+      eprint={2507.15061},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2507.15061}, 
 }
-``` -->
+```

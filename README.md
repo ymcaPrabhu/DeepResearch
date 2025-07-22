@@ -9,10 +9,10 @@ alt="Alibaba-NLP%2FWebAgent | Trendshift" style="width: 250px; height: 55px;" wi
 </p>
 
 <p align="center">
-🤗 <a href="https://huggingface.co/Alibaba-NLP/WebSailor-3B" target="_blank">WebSailor-3B</a> ｜
-<img src="./assets/tongyi.png" width="14px" style="display:inline;"> <a href="https://modelscope.cn/models/iic/WebSailor-3B" target="_blank">ModelScope WebSailor-3B</a> |
 🤗 <a href="https://huggingface.co/datasets/Alibaba-NLP/WebShaper" target="_blank">WebShaperQA</a> ｜
 <img src="./assets/tongyi.png" width="14px" style="display:inline;"> <a href="https://modelscope.cn/datasets/iic/WebShaper" target="_blank">WebShaperQA</a> ｜
+🤗 <a href="https://huggingface.co/Alibaba-NLP/WebSailor-3B" target="_blank">WebSailor-3B</a> ｜
+<img src="./assets/tongyi.png" width="14px" style="display:inline;"> <a href="https://modelscope.cn/models/iic/WebSailor-3B" target="_blank">ModelScope WebSailor-3B</a> |
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@ alt="Alibaba-NLP%2FWebAgent | Trendshift" style="width: 250px; height: 55px;" wi
 </p>
 </div>
 
-> You can check the paper of [WebDancer](https://arxiv.org/pdf/2505.22648) and [WebWalker](https://arxiv.org/pdf/2501.07572) and [WebSailor](https://arxiv.org/pdf/2507.02592) and [WebShaper]().
+> You can check the paper of [WebDancer](https://arxiv.org/pdf/2505.22648) and [WebWalker](https://arxiv.org/pdf/2501.07572) and [WebSailor](https://arxiv.org/pdf/2507.02592) and [WebShaper](https://arxiv.org/pdf/2507.15061).
 
 > 💥 💥 💥 Stay tuned for more updates! We are working on building native agentic model based on the Browser and more open-domain environments!
 
@@ -40,7 +40,7 @@ alt="Alibaba-NLP%2FWebAgent | Trendshift" style="width: 250px; height: 55px;" wi
 
 ## 📰 News and Updates
 
-- `2025.07.20` 🔥🔥🔥**WebShaper** is coming soon.
+- `2025.07.22` 🔥🔥🔥We release **WebShaper**: Agentically Data Synthesizing via Information-Seeking Formalization.
 - `2025.07.11` 🔥🔥🔥**WebSailor-3B** is [released](https://huggingface.co/Alibaba-NLP/WebSailor-3B). You can deploy it with one click using <img src="./assets/aliyun.png" width="14px" style="display:inline;"> [Alibaba Cloud's FunctionAI](https://functionai.console.aliyun.com/template-detail?template=Alibaba-NLP-WebSailor-3B) in ten minutes!
 - `2025.07.03` 🔥🔥🔥We release **WebSailor**, an agentic search model specialized in performing extremely complex information seeking tasks, achieving open-source SOTA on some of the most difficult browsing benchmarks. **WebSailor** topped the HuggingFace [daily papers](https://huggingface.co/papers/2507.02592).
 - `2025.06.23` 🔥🔥🔥The model, interactive demo, and some of the data of **WebDancer** have been open-sourced. You're welcome to try them out!
@@ -168,6 +168,15 @@ The content of this project itself is licensed under [LICENSE](LICENSE).
 If this work is helpful, please kindly cite as:
 
 ```bigquery
+@misc{tao2025webshaperagenticallydatasynthesizing,
+      title={WebShaper: Agentically Data Synthesizing via Information-Seeking Formalization}, 
+      author={Zhengwei Tao and Jialong Wu and Wenbiao Yin and Junkai Zhang and Baixuan Li and Haiyang Shen and Kuan Li and Liwen Zhang and Xinyu Wang and Yong Jiang and Pengjun Xie and Fei Huang and Jingren Zhou},
+      year={2025},
+      eprint={2507.15061},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2507.15061}, 
+}
 @misc{li2025websailor,
       title={WebSailor: Navigating Super-human Reasoning for Web Agent},
       author={Kuan Li and Zhongwang Zhang and Huifeng Yin and Liwen Zhang and Litu Ou and Jialong Wu and Wenbiao Yin and Baixuan Li and Zhengwei Tao and Xinyu Wang and Weizhou Shen and Junkai Zhang and Dingchu Zhang and Xixi Wu and Yong Jiang and Ming Yan and Pengjun Xie and Fei Huang and Jingren Zhou},
