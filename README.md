@@ -168,14 +168,14 @@ The content of this project itself is licensed under [LICENSE](LICENSE).
 If this work is helpful, please kindly cite as:
 
 ```bigquery
-@misc{tao2025webshaperagenticallydatasynthesizing,
-      title={WebShaper: Agentically Data Synthesizing via Information-Seeking Formalization}, 
+@misc{tao2025webshaper,
+      title={WebShaper: Agentically Data Synthesizing via Information-Seeking Formalization},
       author={Zhengwei Tao and Jialong Wu and Wenbiao Yin and Junkai Zhang and Baixuan Li and Haiyang Shen and Kuan Li and Liwen Zhang and Xinyu Wang and Yong Jiang and Pengjun Xie and Fei Huang and Jingren Zhou},
       year={2025},
       eprint={2507.15061},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2507.15061}, 
+      url={https://arxiv.org/abs/2507.15061},
 }
 @misc{li2025websailor,
       title={WebSailor: Navigating Super-human Reasoning for Web Agent},

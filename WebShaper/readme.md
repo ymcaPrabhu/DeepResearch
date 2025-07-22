@@ -15,6 +15,7 @@
 ## Dataset
 
 **WebShaper** is a dataset for training information-seeking agents, we release **500** questions-answer pairs in 🤗 [HuggingFace](https://huggingface.co/datasets/Alibaba-NLP/WebShaper) and <img src="./assets/tongyi.png" width="14px" style="display:inline;"> [ModelScope](https://modelscope.cn/datasets/iic/WebShaper).
+You can access the dataset directly via [data/webshaper.500.jsonl](data/webshaper.500.jsonl).
 
 Data fields:
 
@@ -72,13 +73,13 @@ Moreover, R-Union effects well in our data. The underlined FP is a summarization
 If this work is helpful, please kindly cite as:
 
 ```bigquery
-@misc{tao2025webshaperagenticallydatasynthesizing,
-      title={WebShaper: Agentically Data Synthesizing via Information-Seeking Formalization}, 
+@misc{tao2025webshaper,
+      title={WebShaper: Agentically Data Synthesizing via Information-Seeking Formalization},
       author={Zhengwei Tao and Jialong Wu and Wenbiao Yin and Junkai Zhang and Baixuan Li and Haiyang Shen and Kuan Li and Liwen Zhang and Xinyu Wang and Yong Jiang and Pengjun Xie and Fei Huang and Jingren Zhou},
       year={2025},
       eprint={2507.15061},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2507.15061}, 
+      url={https://arxiv.org/abs/2507.15061},
 }
 ```
