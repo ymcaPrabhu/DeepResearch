@@ -1,4 +1,4 @@
-export JINA_KEY="your_jina_key"
+export JINA_API_KEY="your_jina_api_key"
 export SEARCH_API_URL="your_search_api_url"
 export GOOGLE_SEARCH_KEY="your_google_search_key"
 

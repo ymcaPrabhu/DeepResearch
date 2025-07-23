@@ -14,7 +14,7 @@ IGNORE_JINA = os.getenv("IGNORE_JINA", "false").lower() == "true"
 # Visit Tool (Using Jina Reader)
 JINA_READER_URL_PREFIX = "https://r.jina.ai/"
 
-JINA_API_KEYS = os.getenv("JINA_API_KEYS")
+JINA_API_KEY = os.getenv("JINA_API_KEY")
 
 
 @register_tool('visit', allow_overwrite=True)
@@ -111,7 +111,7 @@ class Visit(BaseTool):
             str: The webpage content or error message
         """
         headers = {
-            "Authorization": f"Bearer {random.choice(JINA_API_KEYS)}",
+            "Authorization": f"Bearer {JINA_API_KEY}",
         }
         max_retries = 3
         timeout = 10
