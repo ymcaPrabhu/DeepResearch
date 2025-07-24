@@ -87,7 +87,7 @@ class Search(BaseTool):
 
 
     def call(self, params: Union[str, dict], **kwargs) -> str:
-        assert GOOGLE_SEARCH_KEY is not None, "Please set the IDEALAB_SEARCH_KEY environment variable."
+        assert GOOGLE_SEARCH_KEY is not None, "Please set the GOOGLE_SEARCH_KEY environment variable."
         try:
             query = params["query"]
         except:
