@@ -1,4 +1,4 @@
-# WebShaper: Towards Autonomous Information Seeking Agency
+# WebShaper: Agentically Data Synthesizing via Information-Seeking Formalization
 
 <p align="center">
   <img src="./assets/webshaper.png" alt="logo" width="40%"/>
