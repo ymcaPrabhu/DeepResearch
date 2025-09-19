@@ -1,19 +1,22 @@
-name: Deploy to Hugging Face Spaces
+name: Sync to Hugging Face Space
 
 on:
   push:
-    branches: [ "main" ]   # or "master" if your default branch is master
+    branches: [ "main" ]
+  workflow_dispatch:
 
 jobs:
-  deploy:
+  sync-to-hub:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - name: Push to Hugging Face Space
-        uses: huggingface/actions/hub@main
         with:
-          repo: spaces/ymcaPrabhu/Second  # change to your Space
-          token: ${{ secrets.HF_TOKEN }}
-          # optional if app is in a subfolder:
-          # subfolder: path/to/app
+          fetch-depth: 0
+          lfs: true
+
+      - name: Push to HF Space
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          git remote add space https://huggingface.co/spaces/ymcaPrabhu/Second || true
+          git push https://ymcaPrabhu:${HF_TOKEN}@huggingface.co/spaces/ymcaPrabhu/Second HEAD:main --force
