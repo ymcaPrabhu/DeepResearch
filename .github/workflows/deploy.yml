@@ -13,7 +13,7 @@ jobs:
       - name: Push to Hugging Face Space
         uses: huggingface/actions/hub@main
         with:
-          repo: spaces/ymcaPrabhu/My-First  # change to your Space
+          repo: spaces/ymcaPrabhu/Second  # change to your Space
           token: ${{ secrets.HF_TOKEN }}
           # optional if app is in a subfolder:
           # subfolder: path/to/app
